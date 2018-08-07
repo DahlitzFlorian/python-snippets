@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f440bfaa3d4a08106606c4729c8999c793917e80b98e97dce7019f0df643c49c"
+            "sha256": "2ff04202f22ac4b23f1af18a9b22e26f36cdc0b3fba1d0100199d4df0afecfe7"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,13 @@
         ]
     },
     "default": {
+        "animatplot": {
+            "hashes": [
+                "sha256:347055f55f6d018df7efdfc590422f2a6784f3a3d30f92ae797a30b145558909"
+            ],
+            "index": "pypi",
+            "version": "==0.2.0"
+        },
         "branca": {
             "hashes": [
                 "sha256:01737edb54a0acb7a959bde57bfad468a4541a3e5ff1be82b97c47fca619c612",

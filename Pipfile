@@ -10,6 +10,7 @@ imageio = "*"
 numpy = "*"
 scipy = "*"
 matplotlib = "*"
+animatplot = "*"
 
 [dev-packages]
 
