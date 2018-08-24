@@ -12,4 +12,5 @@ A collection of useful Python snippets.
 | capture_output | Capture the output of a function generally directing to stdout |
 | folium_snippet | Folium is used to create interactive maps |
 | manipulate_images | Small example on how to manipulate images |
+| overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
