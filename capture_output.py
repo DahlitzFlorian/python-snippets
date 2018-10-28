@@ -4,12 +4,12 @@ import sys
 
 
 # Option 1
-l = io.StringIO()
-with contextlib.redirect_stdout(l):
+output_stream = io.StringIO()
+with contextlib.redirect_stdout(output_stream):
     help(pow)
 
-l = l.getvalue()
-print("value:", l)
+output_stream = output_stream.getvalue()
+print("value:", output_stream)
 
 
 # Option 2
