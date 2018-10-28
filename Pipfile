@@ -12,6 +12,7 @@ scipy = "*"
 matplotlib = "*"
 animatplot = "*"
 asyncio = "*"
+boxx = "*"
 
 [dev-packages]
 
