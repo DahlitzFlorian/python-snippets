@@ -1,6 +1,9 @@
 # vscode
 .vscode/
 
+# idea
+.idea/
+
 #__pycache__
 __pycache__/
 */__pycache__/
