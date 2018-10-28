@@ -11,6 +11,7 @@ A collection of useful Python snippets.
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
 | folium_snippet | Folium is used to create interactive maps |
+| formatted_json | Dump json-objects in a formatted way |
 | manipulate_images | Small example on how to manipulate images |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
