@@ -11,6 +11,7 @@ A collection of useful Python snippets.
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
 | check_pattern | Check for multiple string patterns |
+| deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
 | manipulate_images | Small example on how to manipulate images |
