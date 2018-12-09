@@ -14,6 +14,7 @@ A collection of useful Python snippets.
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
+| keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | manipulate_images | Small example on how to manipulate images |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
