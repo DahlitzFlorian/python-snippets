@@ -19,5 +19,6 @@ A collection of useful Python snippets.
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
+| steganography | Hide an image inside another |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |

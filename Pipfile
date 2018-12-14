@@ -13,6 +13,7 @@ matplotlib = "*"
 animatplot = "*"
 asyncio = "*"
 boxx = "*"
+click = "*"
 
 [dev-packages]
 
