@@ -15,6 +15,7 @@ asyncio = "*"
 boxx = "*"
 click = "*"
 termcolor = "*"
+python-nmap = "*"
 
 [dev-packages]
 
