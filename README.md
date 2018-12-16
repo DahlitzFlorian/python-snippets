@@ -18,6 +18,7 @@ A collection of useful Python snippets.
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
 | hash_file | Hash a file using built-in packages |
+| interactive_cli | Example of PyInquirer to create interactive CLIs |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | manipulate_images | Small example on how to manipulate images |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
