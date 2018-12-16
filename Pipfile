@@ -19,6 +19,7 @@ python-nmap = "*"
 pyinquirer = "*"
 pyfiglet = "*"
 clint = "*"
+docopt = "*"
 
 [dev-packages]
 

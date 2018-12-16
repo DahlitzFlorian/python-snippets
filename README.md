@@ -11,6 +11,7 @@ A collection of useful Python snippets.
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
 | check_pattern | Check for multiple string patterns |
+| cli_help_strings | Beautiful rendered cli help strings |
 | clint_cli_tool | Tool helping you to create awesome CLIs |
 | colored_python | Print colored text to stdout using termcolor |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
