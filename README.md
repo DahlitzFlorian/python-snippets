@@ -13,6 +13,7 @@ A collection of useful Python snippets.
 | check_pattern | Check for multiple string patterns |
 | colored_python | Print colored text to stdout using termcolor |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
+| fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
 | hash_file | Hash a file using built-in packages |

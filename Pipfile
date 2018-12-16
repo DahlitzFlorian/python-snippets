@@ -16,6 +16,9 @@ boxx = "*"
 click = "*"
 termcolor = "*"
 python-nmap = "*"
+pyinquirer = "*"
+pyfiglet = "*"
+clint = "*"
 
 [dev-packages]
 
