@@ -27,6 +27,7 @@ A collection of useful Python snippets.
 | port_scanner | Simple port scanner implementation using built-in packages |
 | port_scanner_nmap | Port Scanner using nmap |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
+| sort_complex_tuples | Sort complex tuples by one of their keys |
 | steganography | Hide an image inside another |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
