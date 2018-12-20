@@ -26,6 +26,7 @@ A collection of useful Python snippets.
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | port_scanner_nmap | Port Scanner using nmap |
+| reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | steganography | Hide an image inside another |
