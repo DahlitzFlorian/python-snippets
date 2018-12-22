@@ -15,6 +15,7 @@ A collection of useful Python snippets.
 | clint_cli_tool | Tool helping you to create awesome CLIs |
 | colored_python | Print colored text to stdout using termcolor |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
+| f-strings_vs_str | Compare the time of f-strings and str |
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
