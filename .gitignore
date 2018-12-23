@@ -1,6 +1,9 @@
 # vscode
 .vscode/
 
+# wily
+.wily/
+
 # idea
 .idea/
 
