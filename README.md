@@ -29,6 +29,7 @@ A collection of useful Python snippets.
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | port_scanner_nmap | Port Scanner using nmap |
+| read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
 | reduce_memory_consumption_iterator | Shows how to reduce memory consumption by using itertools.repeat |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
