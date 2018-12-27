@@ -33,6 +33,7 @@ A collection of useful Python snippets.
 | read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
 | reduce_memory_consumption_iterator | Shows how to reduce memory consumption by using itertools.repeat |
+| regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
