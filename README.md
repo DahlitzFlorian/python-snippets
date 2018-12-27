@@ -21,6 +21,7 @@ A collection of useful Python snippets.
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
+| function_arguments | Example on how to (not) use function arguments |
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
 | interactive_cli | Example of PyInquirer to create interactive CLIs |
