@@ -10,11 +10,11 @@ def positional(arg1: str, arg2: int, arg3: str):
     print(arg1, arg2, arg3)
 
 
-def optional_keyword(arg1: str, arg2: int, arg3: str=None):
+def optional_keyword(arg1: str, arg2: int, arg3: str = None):
     print(arg1, arg2, arg3)
 
 
-def force_keyword(arg1: str, arg2: int, *, arg3: str=None):
+def force_keyword(arg1: str, arg2: int, *, arg3: str = None):
     print(arg1, arg2, arg3)
 
 
