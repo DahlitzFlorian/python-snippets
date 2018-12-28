@@ -11,6 +11,7 @@ A collection of useful Python snippets.
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
+| change_bg | Use OpenCV to change image background |
 | check_pattern | Check for multiple string patterns |
 | cli_help_strings | Beautiful rendered cli help strings |
 | clint_cli_tool | Tool helping you to create awesome CLIs |

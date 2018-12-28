@@ -21,6 +21,7 @@ pyfiglet = "*"
 clint = "*"
 docopt = "*"
 tqdm = "*"
+opencv-python = "*"
 
 [dev-packages]
 
