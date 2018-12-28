@@ -30,6 +30,7 @@ A collection of useful Python snippets.
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | manipulate_images | Small example on how to manipulate images |
 | medium | Get a list of interesting users to follow based on your profile |
+| MicroWebServer | A lightweight micro web server |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | port_scanner | Simple port scanner implementation using built-in packages |
