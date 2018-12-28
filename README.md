@@ -5,6 +5,7 @@ A collection of useful Python snippets.
 ## Available Snippets ##
 | Snippet Name | Description |
 |--------------|-------------|
+| abc_class | Example on how to use abc |
 | animated_graphics | Gives an inside in the usage of animatplot - animated graphics build on matplotlib |
 | async_sleep_async | Async snippet demonstarting the usage of asyncio.sleep() |
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
