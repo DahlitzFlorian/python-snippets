@@ -45,6 +45,7 @@ A collection of useful Python snippets.
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | steganography | Hide an image inside another |
 | tensorflow_image | Generate an image using tensorflow |
+| test_asyncio | Example on how to use asyncio |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | trace_decorator | Trace decorator tracing function calls |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |

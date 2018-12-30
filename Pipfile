@@ -23,6 +23,7 @@ docopt = "*"
 tqdm = "*"
 opencv-python = "*"
 tensorflow = "*"
+aiohttp = "*"
 
 [dev-packages]
 
