@@ -25,6 +25,7 @@ opencv-python = "*"
 tensorflow = "*"
 aiohttp = "*"
 gevent = "*"
+tornado = "*"
 
 [dev-packages]
 
