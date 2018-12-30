@@ -24,6 +24,7 @@ tqdm = "*"
 opencv-python = "*"
 tensorflow = "*"
 aiohttp = "*"
+gevent = "*"
 
 [dev-packages]
 
