@@ -44,5 +44,6 @@ A collection of useful Python snippets.
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | steganography | Hide an image inside another |
+| tensorflow_image | Generate an image using tensorflow |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
