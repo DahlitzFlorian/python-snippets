@@ -2,7 +2,7 @@ import tornado.ioloop
 from tornado.httpclient import AsyncHTTPClient
 
 
-urls = ['http://www.google.com', 'http://www.yandex.ru', 'http://www.python.org']
+urls = ["http://www.google.com", "http://www.yandex.ru", "http://www.python.org"]
 
 
 def handle_response(response):
@@ -11,7 +11,7 @@ def handle_response(response):
     else:
         url = response.request.url
         data = response.body
-        print('{}: {} bytes: {}'.format(url, len(data), data))
+        print("{}: {} bytes: {}".format(url, len(data), data))
 
 
 http_client = AsyncHTTPClient()
