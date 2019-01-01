@@ -47,6 +47,7 @@ A collection of useful Python snippets.
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | steganography | Hide an image inside another |
+| string_capitalize | Difference between title() and capitalize() |
 | tensorflow_image | Generate an image using tensorflow |
 | test_asyncio | Example on how to use asyncio |
 | test_gevent | Demonstrates the usage of gevent |
