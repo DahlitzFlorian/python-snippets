@@ -30,6 +30,7 @@ A collection of useful Python snippets.
 | interactive_cli | Example of PyInquirer to create interactive CLIs |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | manipulate_images | Small example on how to manipulate images |
+| mathematicians | Small project crawling the most popular mathematicians |
 | medium | Get a list of interesting users to follow based on your profile |
 | MicroWebServer | A lightweight micro web server |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
