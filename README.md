@@ -28,6 +28,7 @@ A collection of useful Python snippets.
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
 | interactive_cli | Example of PyInquirer to create interactive CLIs |
+| is_holiday | Checks whether a given date is a holiday in a certain country |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | manipulate_images | Small example on how to manipulate images |
 | mathematicians | Small project crawling the most popular mathematicians |

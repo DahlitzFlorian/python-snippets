@@ -27,6 +27,7 @@ aiohttp = "*"
 gevent = "*"
 tornado = "*"
 "beautifulsoup4" = "*"
+holidays = "*"
 
 [dev-packages]
 
