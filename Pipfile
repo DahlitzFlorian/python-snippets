@@ -28,6 +28,7 @@ gevent = "*"
 tornado = "*"
 "beautifulsoup4" = "*"
 holidays = "*"
+selenium = "*"
 
 [dev-packages]
 

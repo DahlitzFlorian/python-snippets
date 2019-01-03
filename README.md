@@ -9,6 +9,7 @@ A collection of useful Python snippets.
 | animated_graphics | Gives an inside in the usage of animatplot - animated graphics build on matplotlib |
 | async_sleep_async | Async snippet demonstarting the usage of asyncio.sleep() |
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
+| auto_login_website | Using Selenium to auto-login into a website |
 | bitmask | Class that represents a bit mask |
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
