@@ -29,6 +29,8 @@ tornado = "*"
 "beautifulsoup4" = "*"
 holidays = "*"
 selenium = "*"
+docker = "*"
+progressbar = "*"
 
 [dev-packages]
 

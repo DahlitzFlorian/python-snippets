@@ -28,6 +28,7 @@ A collection of useful Python snippets.
 | function_arguments | Example on how to (not) use function arguments |
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
+| inspect_docker | Control docker from within Python |
 | interactive_cli | Example of PyInquirer to create interactive CLIs |
 | is_holiday | Checks whether a given date is a holiday in a certain country |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
