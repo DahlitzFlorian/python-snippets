@@ -43,6 +43,7 @@ A collection of useful Python snippets.
 | read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
 | reduce_memory_consumption_iterator | Shows how to reduce memory consumption by using itertools.repeat |
+| refactoring_code | Refactoring Python code using rope |
 | regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
 | resize_images | Resize all images in the current directory using OpenCV |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |

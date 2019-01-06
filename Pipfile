@@ -31,6 +31,8 @@ holidays = "*"
 selenium = "*"
 docker = "*"
 progressbar = "*"
+rope = "*"
+ropetest = "*"
 
 [dev-packages]
 
