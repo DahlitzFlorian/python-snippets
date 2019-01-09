@@ -21,6 +21,7 @@ A collection of useful Python snippets.
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | disassemble_bytecode | Shows the bytecode representation of f-strings and str() conversion of integers |
+| drawing_turtle | Drawing a dragon symbol using Python's built-in turtle |
 | f-strings_vs_str | Compare the time of f-strings and str |
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
 | folium_snippet | Folium is used to create interactive maps |
