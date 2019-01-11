@@ -59,4 +59,5 @@ A collection of useful Python snippets.
 | test_tornado | Reveales the usage of tornado |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | trace_decorator | Trace decorator tracing function calls |
+| uuid1_example | Generate RFC compliant UUID |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
