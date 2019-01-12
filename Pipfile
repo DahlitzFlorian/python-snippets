@@ -33,6 +33,7 @@ docker = "*"
 progressbar = "*"
 rope = "*"
 mypy = "*"
+prettytable = "*"
 
 [dev-packages]
 
