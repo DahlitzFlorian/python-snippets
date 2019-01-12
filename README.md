@@ -50,7 +50,7 @@ A collection of useful Python snippets.
 | regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
 | resize_images | Resize all images in the current directory using OpenCV |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
-| set_union_intersection | Use | and & for set union and intersection |
+| set_union_intersection | Use \| and & for set union and intersection |
 | show_progress | Shows the progress using progressbar |
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
