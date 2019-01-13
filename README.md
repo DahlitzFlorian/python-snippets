@@ -55,6 +55,7 @@ A collection of useful Python snippets.
 | show_progress | Shows the progress using progressbar |
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
+| split_preserving_sub-strings | Python standard lib's `shlex` splitting strings preserving sub-strings |
 | steganography | Hide an image inside another |
 | string_capitalize | Difference between title() and capitalize() |
 | tensorflow_image | Generate an image using tensorflow |
