@@ -39,6 +39,7 @@ A collection of useful Python snippets.
 | mathematicians | Small project crawling the most popular mathematicians |
 | medium | Get a list of interesting users to follow based on your profile |
 | MicroWebServer | A lightweight micro web server |
+| multi_open_files | Open and manage multiple files at once using `ExitStack` |
 | mypy_example | Example on how to use Pythons type hints and mypy |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
