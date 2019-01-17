@@ -20,6 +20,7 @@ A collection of useful Python snippets.
 | clint_cli_tool | Tool helping you to create awesome CLIs |
 | colored_python | Print colored text to stdout using termcolor |
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
+| count_python_bytes | Get the bytes size of all Python files in a certain directory and it's subdirectories |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | disassemble_bytecode | Shows the bytecode representation of f-strings and str() conversion of integers |
 | display_tables | Using prettytable to display tables well-formatted in the console |

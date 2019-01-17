@@ -34,6 +34,7 @@ progressbar = "*"
 rope = "*"
 mypy = "*"
 prettytable = "*"
+fs = "*"
 
 [dev-packages]
 
