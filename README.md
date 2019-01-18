@@ -52,6 +52,7 @@ A collection of useful Python snippets.
 | reduce_memory_consumption_iterator | Shows how to reduce memory consumption by using itertools.repeat |
 | refactoring_code | Refactoring Python code using rope |
 | regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
+| remove_duplicates_list | Remove duplicates from list and keep the order |
 | resize_images | Resize all images in the current directory using OpenCV |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | set_union_intersection | Use \| and & for set union and intersection |
