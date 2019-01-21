@@ -27,6 +27,7 @@ A collection of useful Python snippets.
 | drawing_turtle | Drawing a dragon symbol using Python's built-in turtle |
 | f-strings_vs_str | Compare the time of f-strings and str |
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
+| flatten | Flatten a nested iterable |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
 | function_arguments | Example on how to (not) use function arguments |
