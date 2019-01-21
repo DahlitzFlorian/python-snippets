@@ -70,4 +70,5 @@ A collection of useful Python snippets.
 | trace_decorator | Trace decorator tracing function calls |
 | update_dict_using_tuples | Update a dict using a list of tuples representing key-value-pairs |
 | uuid1_example | Generate RFC compliant UUID |
+| world_bank_data | Using official world bank data to demonstrate the usage of `zipfile` and `csv` |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
