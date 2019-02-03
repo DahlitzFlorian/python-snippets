@@ -11,6 +11,7 @@ A collection of useful Python snippets.
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
 | auto_login_website | Using Selenium to auto-login into a website |
 | binary_search | Demonstrating the efficiency of the binary search algorithm |
+| bit_flipper | A poor man's encryption |
 | bitmask | Class that represents a bit mask |
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
