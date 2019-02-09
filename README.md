@@ -45,6 +45,7 @@ A collection of useful Python snippets.
 | MicroWebServer | A lightweight micro web server |
 | multi_open_files | Open and manage multiple files at once using `ExitStack` |
 | mypy_example | Example on how to use Pythons type hints and mypy |
+| numpy_array_operations | Reveiling the behaviour of simply array operations using NumPy |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | own_contextmanager | Create your own contextmanager using standard lib |
