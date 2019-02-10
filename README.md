@@ -9,6 +9,7 @@ A collection of useful Python snippets.
 | animated_graphics | Gives an inside in the usage of animatplot - animated graphics build on matplotlib |
 | async_sleep_async | Async snippet demonstarting the usage of asyncio.sleep() |
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
+| attention_message | Display a message on the screen in different colors or blinking |
 | auto_login_website | Using Selenium to auto-login into a website |
 | binary_search | Demonstrating the efficiency of the binary search algorithm |
 | bit_flipper | A poor man's encryption |
