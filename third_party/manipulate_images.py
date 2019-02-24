@@ -1,7 +1,6 @@
 import imageio
 import numpy as np
 import scipy.ndimage
-import matplotlib.pyplot as plt
 
 
 start_img = imageio.imread(
