@@ -1,0 +1,37 @@
+# Third Party #
+## Description ##
+A collection of useful snippets using third party packages.
+
+## Available Snippets ##
+| Snippet Name | Description |
+|--------------|-------------|
+| animated_graphics | Gives an inside in the usage of animatplot - animated graphics build on matplotlib |
+| auto_login_website | Using Selenium to auto-login into a website |
+| change_bg | Use OpenCV to change image background |
+| cli_help_strings | Beautiful rendered cli help strings |
+| clint_cli_tool | Tool helping you to create awesome CLIs |
+| colored_python | Print colored text to stdout using termcolor |
+| count_python_bytes | Get the bytes size of all Python files in a certain directory and it's subdirectories |
+| display_tables | Using prettytable to display tables well-formatted in the console |
+| fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
+| folium_snippet | Folium is used to create interactive maps |
+| formatted_json | Dump json-objects in a formatted way |
+| inspect_docker | Control docker from within Python |
+| interactive_cli | Example of PyInquirer to create interactive CLIs |
+| is_holiday | Checks whether a given date is a holiday in a certain country |
+| manipulate_images | Small example on how to manipulate images |
+| mathematicians | Small project crawling the most popular mathematicians |
+| medium | Get a list of interesting users to follow based on your profile |
+| mypy_example | Example on how to use Pythons type hints and mypy |
+| port_scanner_nmap | Port Scanner using nmap |
+| refactoring_code | Refactoring Python code using rope |
+| resize_images | Resize all images in the current directory using OpenCV |
+| show_progress | Shows the progress using progressbar |
+| simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
+| steganography | Hide an image inside another |
+| tensorflow_image | Generate an image using tensorflow |
+| test_asyncio | Example on how to use asyncio |
+| test_gevent | Demonstrates the usage of gevent |
+| test_tornado | Reveales the usage of tornado |
+| timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
+| world_bank_data | Using official world bank data to demonstrate the usage of `zipfile` and `csv` |
