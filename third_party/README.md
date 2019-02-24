@@ -6,6 +6,7 @@ A collection of useful snippets using third party packages.
 | Snippet Name | Description |
 |--------------|-------------|
 | animated_graphics | Gives an inside in the usage of animatplot - animated graphics build on matplotlib |
+| attention_message | Display a message on the screen in different colors or blinking |
 | auto_login_website | Using Selenium to auto-login into a website |
 | change_bg | Use OpenCV to change image background |
 | cli_help_strings | Beautiful rendered cli help strings |
@@ -23,6 +24,7 @@ A collection of useful snippets using third party packages.
 | mathematicians | Small project crawling the most popular mathematicians |
 | medium | Get a list of interesting users to follow based on your profile |
 | mypy_example | Example on how to use Pythons type hints and mypy |
+| numpy_array_operations | Reveiling the behaviour of simply array operations using NumPy |
 | port_scanner_nmap | Port Scanner using nmap |
 | refactoring_code | Refactoring Python code using rope |
 | resize_images | Resize all images in the current directory using OpenCV |
