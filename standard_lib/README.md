@@ -43,6 +43,7 @@ A collection of useful snippets using only the standard library.
 | split_preserving_sub-strings | Python standard lib's `shlex` splitting strings preserving sub-strings |
 | string_capitalize | Difference between title() and capitalize() |
 | trace_decorator | Trace decorator tracing function calls |
+| unicode_source_code | Example on how awesome unicode in source code is |
 | update_dict_using_tuples | Update a dict using a list of tuples representing key-value-pairs |
 | uuid1_example | Generate RFC compliant UUID |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
