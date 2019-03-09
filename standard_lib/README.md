@@ -31,6 +31,7 @@ A collection of useful snippets using only the standard library.
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | own_contextmanager | Create your own contextmanager using standard lib |
+| parse_query_string | Parse a query string |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
