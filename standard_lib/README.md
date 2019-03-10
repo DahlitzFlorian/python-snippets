@@ -15,6 +15,7 @@ A collection of useful snippets using only the standard library.
 | capture_output | Capture the output of a function generally directing to stdout |
 | check_pattern | Check for multiple string patterns |
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
+| crazy_dict_expression | The craziest dictionary expression ever seen |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | disassemble_bytecode | Shows the bytecode representation of f-strings and str() conversion of integers |
 | drawing_turtle | Drawing a dragon symbol using Python's built-in turtle |
