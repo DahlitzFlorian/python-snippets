@@ -28,6 +28,7 @@ A collection of useful snippets using only the standard library.
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
+| merge_arbitrary_number_of_dicts | The most pythonic way to merge an arbitrary number of dicts |
 | MicroWebServer | A lightweight micro web server |
 | multi_open_files | Open and manage multiple files at once using `ExitStack` |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
