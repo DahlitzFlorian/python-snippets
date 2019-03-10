@@ -18,6 +18,7 @@ A collection of useful snippets using only the standard library.
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | disassemble_bytecode | Shows the bytecode representation of f-strings and str() conversion of integers |
 | drawing_turtle | Drawing a dragon symbol using Python's built-in turtle |
+| emulate_switch_case | Emulate switch-case-statements as they don't exist in Python |
 | f-strings_vs_str | Compare the time of f-strings and str |
 | fill_zeros | Fill strings using leading zeros. |
 | flatten | Flatten a nested iterable |
