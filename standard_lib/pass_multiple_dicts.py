@@ -13,4 +13,3 @@ f(**ChainMap(d1, d2))
 
 # Since Python 3.5 allowing value overwriting
 f(**{**d1, **d2})
-

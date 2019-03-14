@@ -18,4 +18,3 @@ def plumber(request):
 
 def test_backwards_compatibility(plumber):
     assert 1 == 1
-
