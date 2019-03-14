@@ -35,6 +35,7 @@ A collection of useful snippets using only the standard library.
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | own_contextmanager | Create your own contextmanager using standard lib |
 | parse_query_string | Parse a query string |
+| pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | print_human_friendly_numbers | Use `format` to print large numbers human friendly |
 | provide_default_config_values | Chain multiple dicts to provide default config and provide config value overwriting |
