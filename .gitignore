@@ -10,3 +10,6 @@
 #__pycache__
 __pycache__/
 */__pycache__/
+
+# large data sets
+third_party/data/indicators.csv

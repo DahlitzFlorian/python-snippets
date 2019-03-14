@@ -25,6 +25,7 @@ A collection of useful snippets using third party packages.
 | medium | Get a list of interesting users to follow based on your profile |
 | mypy_example | Example on how to use Pythons type hints and mypy |
 | numpy_array_operations | Reveiling the behaviour of simply array operations using NumPy |
+| reduce_pandas_df_memory | Reduce pandas df memory usage by converting `object` to `category` |
 | port_scanner_nmap | Port Scanner using nmap |
 | refactoring_code | Refactoring Python code using rope |
 | resize_images | Resize all images in the current directory using OpenCV |
