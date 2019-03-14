@@ -1,11 +1,7 @@
 from collections import ChainMap
 
 
-population = {
-    "italy": 60,
-    "japan": 127,
-    "uk": 65
-}
+population = {"italy": 60, "japan": 127, "uk": 65}
 
 changes = dict()
 editable = ChainMap(changes, population)
