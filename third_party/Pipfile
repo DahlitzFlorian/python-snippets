@@ -35,6 +35,7 @@ rope = "*"
 mypy = "*"
 prettytable = "*"
 fs = "*"
+pytest = "*"
 
 [dev-packages]
 
