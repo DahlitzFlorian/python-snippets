@@ -11,5 +11,9 @@
 __pycache__/
 */__pycache__/
 
+# large data sets
+third_party/data/indicators.csv
+
 # pytest
 .pytest_cache/
+*/.pytest_cache/

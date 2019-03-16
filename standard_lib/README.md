@@ -35,12 +35,16 @@ A collection of useful snippets using only the standard library.
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | own_contextmanager | Create your own contextmanager using standard lib |
 | parse_query_string | Parse a query string |
+| pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
 | port_scanner | Simple port scanner implementation using built-in packages |
+| print_human_friendly_numbers | Use `format` to print large numbers human friendly |
+| provide_default_config_values | Chain multiple dicts to provide default config and provide config value overwriting |
 | read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
 | reduce_memory_consumption_iterator | Shows how to reduce memory consumption by using itertools.repeat |
 | regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
 | remove_duplicates_list | Remove duplicates from list and keep the order |
+| save_dict_update_without_loosing_original | Update dict value without loosing original value |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | set_union_intersection | Use \| and & for set union and intersection |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
