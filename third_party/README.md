@@ -23,6 +23,7 @@ A collection of useful snippets using third party packages.
 | manipulate_images | Small example on how to manipulate images |
 | mathematicians | Small project crawling the most popular mathematicians |
 | medium | Get a list of interesting users to follow based on your profile |
+| mocking_requests | Mocking the entire `requests` library and check for correct response handling |
 | mypy_example | Example on how to use Pythons type hints and mypy |
 | numpy_array_operations | Reveiling the behaviour of simply array operations using NumPy |
 | port_scanner_nmap | Port Scanner using nmap |
