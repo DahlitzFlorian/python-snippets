@@ -30,6 +30,7 @@ A collection of useful snippets using only the standard library.
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | merge_arbitrary_number_of_dicts | The most pythonic way to merge an arbitrary number of dicts |
 | MicroWebServer | A lightweight micro web server |
+| multi_dict_with_init | Provide a multi dict with default value using `defaultdict` |
 | multi_open_files | Open and manage multiple files at once using `ExitStack` |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
