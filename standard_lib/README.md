@@ -39,6 +39,7 @@ A collection of useful snippets using only the standard library.
 | pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | print_human_friendly_numbers | Use `format` to print large numbers human friendly |
+| priority_queue | Implement a priority queue using `heapq` |
 | provide_default_config_values | Chain multiple dicts to provide default config and provide config value overwriting |
 | read_files_using_iterator | Use iterators to efficiently load huge files |
 | reduce_memory_consumption | Reduce the memory consumption for an instance of a class using __slots__ |
