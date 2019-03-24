@@ -1,7 +1,3 @@
-"""
-Illustrates how zip is stopping if one iterable is exhausted
-without a warning and how to prevent it.
-"""
 import itertools
 
 
