@@ -1,8 +1,3 @@
-"""
-Opens a new browser tab
-
-NOTE: Only browsers, which are part of the PATH variable can be found
-"""
 import webbrowser
 
 
