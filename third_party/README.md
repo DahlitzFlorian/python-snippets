@@ -17,6 +17,7 @@ A collection of useful snippets using third party packages.
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |
 | folium_snippet | Folium is used to create interactive maps |
 | formatted_json | Dump json-objects in a formatted way |
+| f-strings_vs_str | Compare the time of f-strings and str |
 | inspect_docker | Control docker from within Python |
 | interactive_cli | Example of PyInquirer to create interactive CLIs |
 | is_holiday | Checks whether a given date is a holiday in a certain country |
