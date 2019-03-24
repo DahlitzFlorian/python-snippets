@@ -1,0 +1,148 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Dictionaries}
+
+When dealing with dictionaries the following snippets might be helpful - or just fascinating.
+
+
+\subsection{Crazy Dictionary Expression}
+
+The following snippet shows you a crazy dictionary expression.
+Maybe the most craziest dictionary expression you've seen so far.
+
+\lstinputlisting[caption=crazy\_dict\_expression.py]{../standard_lib/crazy_dict_expression.py}
+
+If you're not familiar with dictionary keys, the following output might confuse you.
+
+\begin{lstlisting}[caption=Output of crazy\_dict\_expression.py,label=lst:crazydictoutput]
+$ python crazy_dict_expression.py
+{True: 'maybe'}
+\end{lstlisting}
+
+Dictionary keys are compared by their hash values.
+As \lstinline{True}, \lstinline{1} and \lstinline{1.0} have the same hash values, the keys value gets overwritten.
+\lstinline{True} is inserted as no key with the same hash value exists in the dictionary so far.
+Inserting \lstinline{1} will lead to an overwriting of the value of \lstinline{True} as both share the same hash value.
+This results in the following dictionary:
+
+\begin{lstlisting}
+{True: "no"}
+\end{lstlisting}
+
+Last but not least \lstinline{1.0} with its corresponding value is inserted.
+The behaviour is similar to the insertion of \lstinline{1} resulting in the final output shown in Listing~\ref{lst:crazydictoutput}.
+
+
+\subsection{Emulate switch-case}
+
+A \lstinline{switch-case} statement doesn't exist in Python, but you can easily emulate it using a dictionary.
+By using \mbox{\lstinline{.get()}} you can provide a default return value if a \lstinline{KeyError} is raised.
+
+\lstinputlisting[caption=emulate\_switch\_case.py]{../standard_lib/emulate_switch_case.py}
+
+
+\subsection{Merge Abitrary Number of Dicts}
+
+You can use the following snippet to merge an arbitrary number of dictionaries using the \lstinline{**} operator.
+
+\lstinputlisting[caption=merge\_arbitrary\_number\_of\_dicts.py]{../standard_lib/merge_arbitrary_number_of_dicts.py}
+
+Note that later dictionaries are overwriting existing key-value-pairs.
+
+\begin{lstlisting}[caption=Output of merge\_arbitrary\_number\_of\_dicts.py]
+$ python merge_arbitrary_number_of_dicts.py
+Result of merging dict 1-4: {'a': 2, 'b': 3, 'c': 4, 3: 9, 'd': 8, 'e': 1}
+\end{lstlisting}
+
+
+\subsection{MultiDict with Default Values}
+
+Sometimes you simply want to store several values for a single key.
+\lstinline{MultiDict} is the perfect data structure for that.
+However, a \lstinline{MultiDict} implementation is not provided by the Python standard library.
+You can implement your own by using lists as dict values.
+However, when inserting a value to a key, which doesn't exist so far, a \lstinline{KeyError} is raised.
+Using a \lstinline{defaultdict} solves the problem as a new empty list is added if the key not already exists.
+
+\lstinputlisting[caption=multidict\_with\_default\_init.py]{../standard_lib/multidict_with_default_init.py}
+
+The output shows what we expect.
+
+\begin{lstlisting}[caption=Output of multidict\_with\_default\_init.py]
+$ python multidict_with_default_init.py
+defaultdict(<class 'list'>, {1: ['ichi', 'one', 'uno', 'un']})
+\end{lstlisting}
+
+
+\subsection{Overwrite Dictionary Values}
+
+Loving Python~3.5 PEP~448 for overwriting a dictionary of default values, you can use the following snippet to do exactly that!
+It makes use of the very same operator used when merging dictionaries: \lstinline{**}.
+
+\lstinputlisting[caption=overwrite\_dictionary.py]{../standard_lib/overwrite_dictionary.py}
+
+You may use it when you provide a dictionary containing default configuration settings and want to overwrite them with custom settings.
+
+\begin{lstlisting}[caption=Output of overwrite\_dictionary.py]
+$ python overwrite_dictionary.py
+{'lenny': 'yellow', 'carl': 'black'}
+\end{lstlisting}
+
+
+\subsection{Pass Multiple Dicts as Argument}
+
+If you want to pass multiple dicts as argument for a certain function, you can make use of the \lstinline{**} operator for auto-unpacking.
+However, there are two ways to achieve that depending on whether you want dictionary keys to be overwritten or not.
+
+\lstinputlisting[caption=pass\_multiple\_dicts.py]{../standard_lib/pass_multiple_dicts.py}
+
+Using a \lstinline{ChainMap} doesn't overwrite earlier specified key-value-pairs.
+The second option overwrites key-value-pairs.
+
+\begin{lstlisting}[caption=Output of pass\_multiple\_dicts.py]
+$ python pass_multiple_dicts.py
+5 6 8 9
+5 7 8 9
+\end{lstlisting}
+
+
+\subsection{Default Configuration}
+
+The following snippetshows you, how you can provide a default config, overwrite it with a config file and overwrite the result with command-line arguments.
+All this can be achieved by using \lstinline{ChainMap}.
+
+\lstinputlisting[caption=provide\_default\_config\_values.py]{../standard_lib/provide_default_config_values.py}
+
+
+\subsection{Keep Original After Updates}
+
+You may want to update a dictionaries values without loosing the original values.
+This can be achieved by using a \lstinline{ChainMap}.
+Therefore, we chain an empty dictionary and the one containing the original values.
+Now we are only operating with the \lstinline{ChainMap}.
+
+\lstinputlisting[caption=save\_dict\_update\_without\_loosing\_original.py]{../standard_lib/save_dict_update_without_loosing_original.py}
+
+If we insert new values, they are added to the \lstinline{changes} dict.
+If we try to retrieve values, which aren't part of the \lstinline{changes} dict, we fall back and use the once from the original dict.
+
+\begin{lstlisting}[caption=Output of save\_dict\_update\_without\_loosing\_original.py]
+$ python save_dict_update_without_loosing_original.py
+Before update: 127
+Updated population: 128
+Original population: 127
+Changes: dict_keys(['japan'])
+Did not changed: {'italy', 'uk'}
+\end{lstlisting}
+
+
+\subsection{Update Dict Using Tuples}
+
+You can update a dictionaries values by using tuples.
+
+\lstinputlisting[caption=update\_dict\_using\_tuples.py]{../standard_lib/update_dict_using_tuples.py}
+
+\begin{lstlisting}[caption=Output of update\_dict\_using\_tuples.py]
+$ python update_dict_using_tuples.py
+{1: '1', 2: '2', 3: '3'}
+\end{lstlisting}

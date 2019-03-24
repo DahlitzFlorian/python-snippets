@@ -1,0 +1,52 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Lists}
+
+Provide useful tips for dealing with lists.
+
+
+\subsection{Flatten a List}
+
+Sometimes you have a nested list and just want to flatten it.
+Here's a small snippet revealing how to achieve right that.
+
+\lstinputlisting[caption=flatten.py]{../standard_lib/flatten.py}
+
+\begin{lstlisting}[caption=Output of flatten.py]
+$ python flatten.py
+[1, 2, 3, 4, 5, 6]
+\end{lstlisting}
+
+
+\subsection{Priority Queue}
+
+Image you have a sports tournament (e.g. table tennis or basketball).
+Now you want to get the player or team with the most points.
+You could store all the information in a list, but if new items are added, you need to resort it.
+This can take a significant time amount if the data set keeps growing.
+You can make use of a \lstinline{Heap} data structure to implement your own priority queue to auto-sort the data for you.
+
+\lstinputlisting[caption=priority\_queue.py]{../standard_lib/priority_queue.py}
+
+As the snippet provides a sample usage, the following Listing shows you the output.
+
+\begin{lstlisting}[caption=Output of priority\_queue.py]
+$ python priority_queue.py
+hello
+None
+world
+None
+\end{lstlisting}
+
+
+\subsection{Remove Duplicates}
+
+Remove duplicates from a list but keeping the order by using \lstinline{OrderedDict}.
+
+\lstinputlisting[caption=remove\_duplicates\_list.py]{../standard_lib/remove_duplicates_list.py}
+
+\begin{lstlisting}[caption=Output of remove\_duplicates\_list.py]
+$ python remove_duplicates_list.py
+List with duplicates: ['foo', 'Alice', 'bar', 'foo', 'Bob']
+Without duplicates: ['foo', 'Alice', 'bar', 'Bob']
+\end{lstlisting}

@@ -1,0 +1,24 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Files}
+
+In this section you will find a collection of snippets revealing tips for interacting with files.
+
+
+\subsection{Hash a File}
+
+To ensure a files integrity, you can hash the file and compare it with other hashes.
+The following Listing shows you how to hash a certain file using \lstinline{MD5} and \lstinline{SHA1}.
+Both hashes are printed to stdout as well as the name of the hashed file.
+
+\lstinputlisting[caption=hash\_file.py]{../standard_lib/hash_file.py}
+
+
+\subsection{Read Files using Iterator}
+
+Reveals the usage of iterators to read in a file.
+It's useful when dealing with large files.
+If not using iterators, the whole file is loaded into memory at once (think of several gigabyte huge files).
+If using iterators, only the next line is loaded.
+
+\lstinputlisting[caption=read\_files\_using\_iterator.py]{../standard_lib/read_files_using_iterator.py}

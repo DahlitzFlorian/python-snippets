@@ -1,0 +1,42 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Dealing with builtins}
+
+Sometimes it can be helpful to manipulate builtins or to find a better way to deal with them.
+This section will show you ways to interact with builtins you may not thought of.
+
+
+\subsection{Change Behaviour}
+
+In some situations it can be helpful to extend the functionality of a certain builtin.
+Keep in mind, that this can be dangerous if it's not documented and is done in a global scope!
+
+\lstinputlisting[caption=builtins\_manipulation.py]{../standard_lib/builtins_manipulation.py}
+
+The Listing first assigns the builtin \lstinline{print} function to a variable called \lstinline{_print}.
+After that, a custom \mbox{\lstinline{print}} function is defined shadowing the builtin one.
+The functionality is extended by displaying the number of arguments before printing the actual output.
+You can find the output in the following Listing.
+
+\begin{lstlisting}[caption=Output of builtins\_manipulation.py]
+$ python builtins_manipulation.py
+One Two Three
+Number of arguments: 3
+\end{lstlisting}
+
+
+\subsection{Capture Output}
+
+It may be helpful to capture and redirect the output of certain functions.
+For instance you don't want to send the output of the builtin \lstinline{help} function to stdout but want to redirect it to a file.
+The following Listing shows you three ways how to capture and redirect the output of functions.
+
+\lstinputlisting[caption=capture\_output.py]{../standard_lib/capture_output.py}
+
+The first option saves the output to a \lstinline{StringIO} object.
+The value can be accessed using \lstinline{.getvalue()}.
+
+The second option can be used to save the output to a specified file.
+In this case we save the output to \lstinline{help.txt}.
+
+Last but not least we are redirecting the output to stderr.

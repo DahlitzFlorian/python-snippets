@@ -1,0 +1,47 @@
+\documentclass[ebook,12pt,oneside,openany]{memoir}
+\usepackage[english]{babel}
+\usepackage{url}
+
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+\lstset{
+    aboveskip=2em,
+    belowskip=2em,
+    breaklines=true,
+    captionpos=b,
+    language=Python,
+    postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+    basicstyle=\ttm,
+    otherkeywords={self},             % Add keywords here
+    keywordstyle=\ttb\color{deepblue},
+    emph={MyClass,__init__},          % Custom highlighting
+    emphstyle=\ttb\color{deepred},    % Custom highlighting style
+    stringstyle=\color{deepgreen},
+    frame=tb,                         % Any extra options here
+    showstringspaces=false            % 
+}
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+\title{%
+    Python Snippets \\
+    \large A Collection of Useful Python Snippets with Explanations}
+\author{Florian Dahlitz}
+
+\begin{document}
+\maketitle
+\newpage \tableofcontents
+
+\newpage \input{chapters/standard_lib.tex}
+\newpage \input{chapters/third_party.tex}
+
+\end{document}

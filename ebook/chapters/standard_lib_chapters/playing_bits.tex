@@ -1,0 +1,34 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Playing with Bits}
+
+In this section you will find a collection of snippets corresponding to bit manipulation.
+
+
+\subsection{Bit Flipper}
+
+The \lstinline{bit_flipper} function gives you a poor man's encryption.
+Making use of a salt, it flips certain bits of each charcter.
+The resulting string hides the information from the original one, at least for humans.
+Applying the function a second time returns the original string.
+
+\lstinputlisting[caption=bit\_flipper.py,label=lst:bitflipper]{../standard_lib/bit_flipper.py}
+
+The output will look like the following:
+
+\begin{lstlisting}[caption=Output of the bit flipper]
+$ python bit_flipper.py
+Pythonista rules!
+Qxuinohru`!stmdr 
+Pythonista rules!
+\end{lstlisting}
+
+
+\subsection{A Simple Bitmask}
+
+The \lstinline{BitMask} class represents a simple bit mask.
+It has methods representing all the bitwise operations plus some additional features.
+The methods return a new BitMask object or a boolean result.
+See the bits module for more information about the operations provided.
+
+\lstinputlisting[caption=bitmask.py]{../standard_lib/bitmask.py}

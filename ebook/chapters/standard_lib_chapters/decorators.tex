@@ -1,0 +1,60 @@
+% !TeX root = ../../python-snippets.py
+
+\section{Decorators}
+
+A collection of quite useful decorators you can use in your projects.
+
+
+\subsection{Deprecation Decorator}
+
+Let's assume you want to remove a certain function or method.
+Instead of just removing it, you want to signal your users that the function or method is deprecated, so they know, it will be removed in a future release.
+You can write your custom deprecation decorator printing a \lstinline{DeprecationWarning} whenever the deprecated function or method is invoked.
+Listing~\ref{lst:deprecateddecorator} shows you a sample implementation of the decorator as well as possible usages.
+
+\lstinputlisting[caption=deprecated\_decorator.py,label=lst:deprecateddecorator]{../standard_lib/deprecated_decorator.py}
+
+Everytime the deprecated function or method is called, a \lstinline{DeprecationWarning} is printed.
+
+\begin{lstlisting}[caption=Output of deprecated\_decorator.py]
+$ python deprecated_decorator.py
+<your_path>/deprecated_decorator.py:10: DeprecationWarning: Call to deprecated function some_old_function.
+f"Call to deprecated function {func.__name__}.", category=DeprecationWarning
+<your_path>/deprecated_decorator.py:10: DeprecationWarning: Call to deprecated function some_old_method.
+f"Call to deprecated function {func.__name__}.", category=DeprecationWarning
+\end{lstlisting}
+
+
+\subsection{Keep Function Metadata}
+
+The original functions metadata are lost when using a decorator.
+You can keep them using the \lstinline{@wraps} decorator provided by the \lstinline{functools} module.
+
+\lstinputlisting[caption=keep\_metadata\_on\_decorator\_usage.py]{../standard_lib/keep_metadata_on_decorator_usage.py}
+
+The output shows the result we would expect from a decorated function.
+
+\begin{lstlisting}[caption=Output of keep\_metadata\_on\_decorator\_usage.py]
+$ python keep_metadata_on_decorator_usage.py
+<p>Hello World</p>
+get_text
+Returns some text
+\end{lstlisting}
+
+
+\subsection{Trace Decorator}
+
+This snippet contains a custom trace decorator revealing a functions flow.
+
+\lstinputlisting[caption=trace\_decorator.py]{../standard_lib/trace_decorator.py}
+
+The output is shown in the following Listing.
+
+\begin{lstlisting}[caption=Output of trace\_decorator.py]
+$ python trace_decorator.py
+--------------------
+TRACE: calling greet() with ('Florian', 'Nice to see you!'), {}
+TRACE: greet() returned 'Florian, Nice to see you!'
+--------------------
+Florian, Nice to see you!
+\end{lstlisting}

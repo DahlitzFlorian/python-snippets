@@ -17,3 +17,13 @@ third_party/data/indicators.csv
 # pytest
 .pytest_cache/
 */.pytest_cache/
+
+# ebook
+build.sh
+*.aux
+*.dvi
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.toc

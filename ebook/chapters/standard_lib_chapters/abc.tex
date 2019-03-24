@@ -1,0 +1,17 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Abstract Base Class (ABC)}
+
+The \lstinline{abc} module provides the infrastructure for defining abstract base classes (ABCs) in Python.
+In this section you will find a collection of snippets being useful when dealing with ABCs.
+
+
+\subsection{General Usage}
+
+Listing~\ref{lst:abcclass} shows the general usage of ABCs by example.
+
+\lstinputlisting[caption={abc\_class.py},label={lst:abcclass}]{../standard_lib/abc_class.py}
+
+The snippets contains two classes: \lstinline{BaseClass} and \lstinline{ConcreteClass}, whereas \lstinline{BaseClass} is the ABC of \linebreak\lstinline{ConcreteClass}.
+Both methods \lstinline{foo} and \lstinline{bar} are decorated with \lstinline{@abstractmethod} and have to be implemented by the classes inheriting from \lstinline{BaseClass}.
+Furthermore, as \lstinline{BaseClass} is an ABC, it can't be instantiated.

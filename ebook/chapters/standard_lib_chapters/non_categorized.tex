@@ -1,0 +1,177 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Non-Categorized}
+
+This section includes all those snippets not belonging to any of the underlying categories.
+
+
+\subsection{Turtle}
+
+The \lstinline{turtle} module provides turtle graphics primitives, in both object-oriented and procedure-oriented ways.
+Because it uses \lstinline{tkinter} for the underlying graphics, it needs a version of Python installed with Tk support.
+The following Listing shows you a sample implementation of the \lstinline{turtle} module drawing a dragon.
+
+\lstinputlisting[caption=drawing\_turtle.py]{../standard_lib/drawing_turtle.py}
+
+
+\subsection{Function Parameters}
+
+There's not much to say about the following snippet.
+It shows the different usages of positional and keyword arguments.
+The last call shows you how \textit{not} to call a function with positional and keyword arguments.
+So don't be confused if a \lstinline{TypeError} is raised.
+
+\lstinputlisting[caption=function\_arguments.py]{../standard_lib/function_arguments.py}
+
+
+\subsection{Password Input}
+
+Python has a module called \lstinline{getpass}, which lets you take user input without printing the typed characters.
+
+\lstinputlisting[caption=get\_password\_input.py]{../standard_lib/get_password_input.py}
+
+
+\subsection{Hex Decode}
+
+You can decode hex-code in Python as follows.
+
+\lstinputlisting[caption=hex\_decode.py]{../standard_lib/hex_decode.py}
+
+\begin{lstlisting}[caption=Output of hex\_decode.py]
+$ python hex_decode.py
+b'Merry Christmas!'
+\end{lstlisting}
+
+
+\subsection{MicroWebServer}
+
+The implementation of a micro web server is stored in the \lstinline{MicroWebServer.py} file.
+As this file is much longer than usual snippets and it's not meant to discussed it here, I'm referring the source code repo to see and test the program on your own.
+
+
+\subsection{Open Browser Tab}
+
+You can control a browser through the \lstinline{webbrowser} module.
+If you want to open a new browser tab, you can simply run the code of the following Listing.
+
+\textbf{Note:} Only browsers, which are part of the \lstinline{PATH} variable, can be found
+
+\lstinputlisting[caption=open\_browser\_tab.py]{../standard_lib/open_browser_tab.py}
+
+
+\subsection{Port Scanner}
+
+In the \lstinline{port_scanner.py} file you find an implementation of a very basic port scanner.
+As the file is to large, it's not displayed here.
+Feel free to use the port scanner.
+
+
+\subsection{Reduce Memory Consumption - Customizing \_\_slots\_\_}
+
+Every class has a \lstinline{__slots__} attribute.
+This attribute is quite big by default.
+By specifying a custom \lstinline{__slots__} attribute, you can reduce the memory consumption.
+As the snippet is quite large, I just refer to file in the repo: \lstinline{reduce_memory_consumption.py}.
+However, I want to show you the output of the snippet:
+
+\begin{lstlisting}[caption=Output of reduce\_memory\_consumption.py]
+$ python reduce_memory_consumption.py
+[With __slots__] Total allocated size: 6.9 MB
+[Without __slots__] Total allocated size: 16.8 MB
+\end{lstlisting}
+
+
+\subsection{Reduce Memory Consumption - Using Iterator}
+
+You can reduce the memory consumption by using iterators whenever possible.
+
+\lstinputlisting[caption=reduce\_memory\_consumption\_iterator.py]{../standard_lib/reduce_memory_consumption_iterator.py}
+
+Just have a look at the resulting output, it speaks for itself.
+
+\begin{lstlisting}[caption=Output of reduce\_memory\_consumption\_iterator.py]
+$ python reduce_memory_consumption_iterator.py
+Using itertools.repeat: 56 bytes
+Using list with 100.000.000 elements: 762.9395141601562 MB
+\end{lstlisting}
+
+
+\subsection{RegEx Parse Tree}
+
+Print the ReqEx parse tree using \lstinline{re.DEBUG}.
+
+\lstinputlisting[caption=regular\_expression\_debug.py]{../standard_lib/regular_expression_debug.py}
+
+
+\subsection{Scopes}
+
+The snippet \lstinline{scopes_namespaces.py} contains an example to demonstrate the different scopes and namespaces available in Python.
+As it's only for demonstarting purposes and as the file is quite huge, it's not displayed here.
+
+
+\subsection{Set Union and Intersection}
+
+Python provides set union and intersection using the \lstinline{&} and \lstinline{|} operators.
+
+\lstinputlisting[caption=set\_union\_intersection.py]{../standard_lib/set_union_intersection.py}
+
+\begin{lstlisting}[caption=set\_union\_intersection.py]
+$ python set_union_intersection.py
+{1, 2} & {2, 3} = {2}
+{1, 2} | {2, 3} = {1, 2, 3}
+\end{lstlisting}
+
+
+\subsection{Sort Complex Tuples}
+
+If you have a list of more complex tuples, you may want to sort them by a certain key.
+You can provide a key function for the builtin \lstinline{sorted} function.
+
+\lstinputlisting[caption=sort\_complex\_tuples.py]{../standard_lib/sort_complex_tuples.py}
+
+\begin{lstlisting}[caption=Output of sort\_complex\_tuples.py]
+$ python sort_complex_tuples.py
+[('Dave', 'B', 10), ('Jane', 'B', 12), ('John', 'A', 15)]
+\end{lstlisting}
+
+
+\subsection{Unicode in Source Code}
+
+Python allows you to use unicode in your source, what you shouldn't do.
+Nevertheless, this snippet shows you a sample unicode usage in source code.
+
+\lstinputlisting[caption=unicode\_source\_code.py]{../standard_lib/unicode_source_code.py}
+
+However, this only works in the REPL or in iPython, but not in files.
+
+
+\subsection{UUID}
+
+The \lstinline{uuid} module provides methods to generade UUIDs.
+In this snippet you can find a sample implementation of UUID1.
+
+\lstinputlisting[caption=uuid1\_example.py]{../standard_lib/uuid1_example.py}
+
+The output may look like this:
+
+\begin{lstlisting}[caption=Output of uuid1\_example.py]
+$ python uuid1_example.py
+3120c650-4e5e-11e9-be8f-dca904927157
+3120ca1a-4e5e-11e9-be8f-dca904927157
+3120cb0a-4e5e-11e9-be8f-dca904927157
+3120cbbe-4e5e-11e9-be8f-dca904927157
+3120cc72-4e5e-11e9-be8f-dca904927157
+\end{lstlisting}
+
+
+\subsection{Zip Safe}
+
+This snippet illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it.
+
+\lstinputlisting[caption=zip\_safe.py]{../standard_lib/zip_safe.py}
+
+\begin{lstlisting}[caption=Output of zip\_safe.py]
+$ python zip_safe.py
+[(1, 'One'), (2, 'Two')]
+[(1, 'One'), (2, 'Two'), (3, None)]
+\end{lstlisting}

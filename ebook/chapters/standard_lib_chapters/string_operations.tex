@@ -1,0 +1,110 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{String Operations}
+
+In the following section you will find useful snippets when dealing with strings.
+
+
+\subsection{Check for String Pattern}
+
+Assuming you have a list of strings and you want to check them for multiple pattern.
+The following snippet solves this issue by using a fairly simple list comprehension.
+
+\lstinputlisting[caption=check\_pattern.py]{../standard_lib/check_pattern.py}
+
+The output after running the snippet is something like that:
+
+\begin{lstlisting}[caption=Output of check\_pattern.py]
+$ python check_pattern.py
+['hello', 'hello world', 'xxx world']
+\end{lstlisting}
+
+
+\subsection{Compare Strings}
+
+If you want to compare two strings and want to know \glqq how equal they are\grqq, you can make use of the \linebreak \lstinline{SequenceMatcher}.
+
+\lstinputlisting[caption=compare\_strings.py]{../standard_lib/compare_strings.py}
+
+It will split the strings into matching blocks and return how many characters of the blocks are matching.
+Furthermore, you get a float value representing the overall matching.
+The output is shown in the following Listing.
+
+\begin{lstlisting}[caption=Output of compare\_strings.py]
+$ python compare_strings.py
+0.895
+a[0] and b[0] match for 11 elements
+a[11] and b[15] match for 6 elements
+a[17] and b[21] match for 0 elements
+\end{lstlisting}
+
+
+\subsection{Fill Strings}
+
+You can use the \lstinline{zfill} string method to fill a string with zeros if the provided maximum length isn't already reached.
+
+\lstinputlisting[caption=fill\_zeros.py]{../standard_lib/fill_zeros.py}
+
+The outpur is shown in the following Listing.
+
+\begin{lstlisting}[caption=Output of fill\_zeros.py]
+$ python fill_zeros.py
+0001
+0011
+0222
+0aaa
+1234
+\end{lstlisting}
+
+
+\subsection{Parse Query String}
+
+You can use the builtin \lstinline{urllib} module to parse query strings.
+
+\lstinputlisting[caption=parse\_query\_string.py]{../standard_lib/parse_query_string.py}
+
+The provided snippets will output the following:
+
+\begin{lstlisting}[caption=Output of parse\_query\_string.py]
+$ python parse_query_string.py
+{'host': ['171.25.2.7'], 'port': ['8080', '8081']}
+\end{lstlisting}
+
+
+\subsection{Print Numbers Human-Friendly}
+
+You can print numbers in a human-friendly way using the builtin \lstinline{format} function.
+
+\lstinputlisting[caption=print\_human\_friendly\_numbers.py]{../standard_lib/print_human_friendly_numbers.py}
+
+\begin{lstlisting}[caption=Output of print\_human\_friendly\_numbers.py]
+$ python print_human_friendly_numbers.py
+123,123,123
+\end{lstlisting}
+
+
+\subsection{Split Strings Preserving Substrings}
+
+In some cases you're splitting a string into the words it contains, but you want to keep substrings.
+Fortunately, Python has a module called \lstinline{shlex} providing a \lstinline{split} function keeping substrings as one.
+
+\lstinputlisting[caption=split\_preserving\_sub-strings.py]{../standard_lib/split_preserving_sub-strings.py}
+
+\begin{lstlisting}[caption=Output of split\_preserving\_sub-strings.py]
+$ python split_preserving_sub-strings.py
+Split string output: ['This', 'is', '"Berlin', 'Cafe"']
+Shlex string outpur: ['This', 'is', 'Berlin Cafe']
+\end{lstlisting}
+
+
+\subsection{capitalize() vs. title()}
+
+The following Listings shows the difference between \lstinline{capitalize} and \lstinline{title}
+
+\lstinputlisting[caption=string\_capitalize.py]{../standard_lib/string_capitalize.py}
+
+\begin{lstlisting}[caption=Output of string\_capitalize.py]
+$ python string_capitalize.py
+capitalize(): I love coffee
+title(): I Love Coffee
+\end{lstlisting}

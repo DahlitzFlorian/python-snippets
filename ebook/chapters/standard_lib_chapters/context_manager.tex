@@ -1,0 +1,34 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Context Manager}
+
+In this section you will find a collection of self-implemented context manager.
+
+
+\subsection{Open Multiple Files}
+
+Ever wanted to save a certain text to multiple files?
+Well, with this context manager you can open multiple files at once and write a specified text to them.
+
+\lstinputlisting[caption=multi\_open\_files.py]{../standard_lib/multi_open_files.py}
+
+If you run the snippet, it will create ten text files all containing the same text.
+
+
+\subsection{Temporal SQLite Table}
+
+If you are working with \lstinline{sqlite}, you may find this context manager helpful.
+It creates a temporal table you can interact with.
+
+\lstinputlisting[caption=temptable\_contextmanager.py]{../standard_lib/temptable_contextmanager.py}
+
+When leaving the \lstinline{with}-statement, the table is deleted.
+That said, you can run the snippet as often as you like, the output remains the same.
+
+\begin{lstlisting}[caption=Output of temptable\_contextmanager.py]
+$ python temptable_contextmanager.py
+(1, 1)
+(1, 2)
+(2, 1)
+(5,)
+\end{lstlisting}

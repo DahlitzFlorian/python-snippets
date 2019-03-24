@@ -1,0 +1,28 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Bytecode}
+
+This section contains snippets for investigating Pythons bytecode.
+
+
+\subsection{Disassemble Bytecode - String Conversion}
+
+Ever wanted to know what a string conversion using f-strings or \lstinline{str()} looks like in bytecode?
+The following snippet shows you exactly that!
+
+\lstinputlisting[caption=disassemble\_bytecode.py]{../standard_lib/disassemble_bytecode.py}
+
+For displaying the bytecode of a function the builtin \lstinline{dis} module is used.
+
+\begin{lstlisting}[caption=Output of disassemble\_bytecode.py]
+$ python disassemble_bytecode.py
+============================== f-strings ==============================
+  5           0 LOAD_FAST                0 (number)
+              2 FORMAT_VALUE             0
+              4 RETURN_VALUE
+================================ str() ================================
+  9           0 LOAD_GLOBAL              0 (str)
+              2 LOAD_FAST                0 (number)
+              4 CALL_FUNCTION            1
+              6 RETURN_VALUE
+\end{lstlisting}
