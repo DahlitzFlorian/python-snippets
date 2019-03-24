@@ -33,7 +33,6 @@ A collection of useful snippets using only the standard library.
 | multi_open_files | Open and manage multiple files at once using `ExitStack` |
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
-| own_contextmanager | Create your own contextmanager using standard lib |
 | parse_query_string | Parse a query string |
 | pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
 | port_scanner | Simple port scanner implementation using built-in packages |
@@ -51,6 +50,7 @@ A collection of useful snippets using only the standard library.
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | split_preserving_sub-strings | Python standard lib's `shlex` splitting strings preserving sub-strings |
 | string_capitalize | Difference between title() and capitalize() |
+| temptable_contextmanager | Create a contextmanager providing a temptable for SQLite |
 | trace_decorator | Trace decorator tracing function calls |
 | unicode_source_code | Example on how awesome unicode in source code is |
 | update_dict_using_tuples | Update a dict using a list of tuples representing key-value-pairs |
