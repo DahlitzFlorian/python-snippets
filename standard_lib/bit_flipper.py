@@ -5,13 +5,13 @@
 
 
 def bit_flipper(s, salt=1):
-    return ''.join([chr(ord(x) ^ salt) for x in s])
+    return "".join([chr(ord(x) ^ salt) for x in s])
 
 
 salt = 1  # try 1, 6, 7
 # for instance, salt = 2 gives you an encrypted string with no printable chars
 # (disappearing ink)!
-s = 'Pythonista rules!   ¥€$ it döèš'
+s = "Pythonista rules!"
 print(s)
 s = bit_flipper(s, salt)
 print(s)
