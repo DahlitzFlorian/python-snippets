@@ -1,5 +1,3 @@
-"""The original functions metadata are lost when using a decorator.
-Keep them using functools.wraps"""
 from functools import wraps
 
 
