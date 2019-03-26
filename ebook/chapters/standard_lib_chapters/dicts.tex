@@ -146,3 +146,24 @@ You can update a dictionaries values by using tuples.
 $ python update_dict_using_tuples.py
 {1: '1', 2: '2', 3: '3'}
 \end{lstlisting}
+
+
+\subsection{Create A Dict Based On Lists}
+
+Let's assume you have two lists and you want to create a dictionary out of them.
+The first list might contain the letters 1-26 and the second list might contain the characters a-z.
+So you want to map a character to each numbers to finally end up with a dictionary representing the alphabet.
+This recipe shows you how to achieve that in a very simple manner.
+
+\lstinputlisting[caption=dict\_based\_on\_lists.py]{../standard_lib/dict_based_on_lists.py}
+
+As we are using \lstinline{json.dumps} with the argument \lstinline{sortkeys=True}, the final dictionary is sorted and looks like this:
+
+\begin{lstlisting}[caption=Output of dict\_based\_on\_lists.py]
+$ python dict_based_on_lists.py
+{
+    "1": "a",
+    "2": "b",
+    "3": "c"
+}
+\end{lstlisting}
