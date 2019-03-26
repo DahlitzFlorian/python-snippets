@@ -52,6 +52,7 @@ A collection of useful snippets using only the standard library.
 | string_capitalize | Difference between title() and capitalize() |
 | temptable_contextmanager | Create a contextmanager providing a temptable for SQLite |
 | trace_decorator | Trace decorator tracing function calls |
+| tree_clone | Python clone of the UNIX tree command - but better! |
 | unicode_source_code | Example on how awesome unicode in source code is |
 | update_dict_using_tuples | Update a dict using a list of tuples representing key-value-pairs |
 | uuid1_example | Generate RFC compliant UUID |

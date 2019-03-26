@@ -175,3 +175,24 @@ $ python zip_safe.py
 [(1, 'One'), (2, 'Two')]
 [(1, 'One'), (2, 'Two'), (3, None)]
 \end{lstlisting}
+
+
+\subsection{Tree Clone}
+
+If you have ever worked with unix systems, you might know the \lstinline{tree} command.
+The following Listing shows you a pure Python implementation of this command.
+
+\lstinputlisting[caption=tree\_clone]{../standard_lib/tree_clone.py}
+
+A sampl output might look like this:
+
+\begin{lstlisting}[caption=Output of tree\_clone.py,escapechar=@]
+$ python tree_clone.py
+/Users/florian/workspace/python/test-directory
+@\pmboxdrawuni{2514}@---- app
+      @\pmboxdrawuni{2514}@---- __init__.py
+      @\pmboxdrawuni{2514}@---- __main__.py
+@\pmboxdrawuni{2514}@---- main.py
+@\pmboxdrawuni{2514}@---- test.py
+@\pmboxdrawuni{2514}@---- utils.py
+\end{lstlisting}
