@@ -26,3 +26,19 @@ $ python disassemble_bytecode.py
               4 CALL_FUNCTION            1
               6 RETURN_VALUE
 \end{lstlisting}
+
+
+\subsection{Human Readable Bytecode}
+
+If you are using Pythons \lstinline{dis} module to get some insights into what's happening behind the scenes, you may like this recipe as it provides a way to print the output in a much more human readable way.
+
+\lstinputlisting[caption=human\_readable\_bytecode.py]{../standard_lib/human_readable_bytecode.py}
+
+\begin{lstlisting}[caption=Output of human\_readable\_bytecode.py]
+$ python human_readable_bytecode.py
+LOAD_CONST: 0
+RETURN_VALUE: 0
+\end{lstlisting}
+
+\textbf{Note:} Even though we didn't put a return statement at the end of \lstinline{foo}, Python added it.
+That's because every function in Python needs a return statement (specified by the underlying protocols).

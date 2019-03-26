@@ -27,6 +27,7 @@ A collection of useful snippets using only the standard library.
 | get_password_input | Request user input without showing, what he or she is typing |
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
+| human_readable_bytecode | Print the bytecode representations in a human readble format |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | merge_arbitrary_number_of_dicts | The most pythonic way to merge an arbitrary number of dicts |
 | MicroWebServer | A lightweight micro web server |
