@@ -50,3 +50,18 @@ $ python remove_duplicates_list.py
 List with duplicates: ['foo', 'Alice', 'bar', 'foo', 'Bob']
 Without duplicates: ['foo', 'Alice', 'bar', 'Bob']
 \end{lstlisting}
+
+
+\subsection{Unpacking Lists Using * Operator}
+
+Assuming you have a list with more elements than you have variables to store the values in.
+You can use the \lstinline{*} operator when unpacking a list to store a partial list in one variable.
+
+\lstinputlisting[caption=list\_unpacking.py]{../standard_lib/list_unpacking.py}
+
+\begin{lstlisting}[caption=Output of list\_unpacking.py]
+$ python list_unpacking.py
+a = 1
+b = [2, 3, 4]
+c = 5
+\end{lstlisting}
