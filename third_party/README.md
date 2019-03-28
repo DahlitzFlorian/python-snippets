@@ -27,9 +27,10 @@ A collection of useful snippets using third party packages.
 | mocking_requests | Mocking the entire `requests` library and check for correct response handling |
 | mypy_example | Example on how to use Pythons type hints and mypy |
 | numpy_array_operations | Reveiling the behaviour of simply array operations using NumPy |
-| reduce_pandas_df_memory | Reduce pandas df memory usage by converting `object` to `category` |
+| parse_complex_excel_sheets | Parse complex Excel Sheets using `pandas` and `xlrd` |
 | port_scanner_nmap | Port Scanner using nmap |
 | pytest_rename_class_backwards_compatibility | Rename a critical class and test for backwards compatibility |
+| reduce_pandas_df_memory | Reduce pandas df memory usage by converting `object` to `category` |
 | refactoring_code | Refactoring Python code using rope |
 | resize_images | Resize all images in the current directory using OpenCV |
 | show_progress | Shows the progress using progressbar |

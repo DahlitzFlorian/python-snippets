@@ -37,6 +37,7 @@ prettytable = "*"
 fs = "*"
 pytest = "*"
 requests = "*"
+xlrd = "*"
 
 [dev-packages]
 
