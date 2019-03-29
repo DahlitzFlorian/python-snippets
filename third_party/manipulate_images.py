@@ -7,7 +7,7 @@ start_img = imageio.imread(
     "http://static.cricinfo.com/db/PICTURES/CMS/263600/263697.20.jpg"
 )
 gray_inv_img = 255 - np.dot(start_img[..., :3], [0.299, 0.587, 0.114])
-blur_img = scipy.ndimage.filters.gaussian_filter(inverted_img, sigma=5)
+blur_img = scipy.ndimage.filters.gaussian_filter(gray_inv_img, sigma=5)
 
 
 def dodge(front, back):
@@ -16,4 +16,5 @@ def dodge(front, back):
     return result.astype("uint8")
 
 
-final_img = dodge(blur_img, gray_img)
+final_img = dodge(blur_img, gray_inv_img)
+imageio.imwrite('final.jpg', final_img)
