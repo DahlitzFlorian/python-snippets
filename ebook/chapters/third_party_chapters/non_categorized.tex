@@ -1,0 +1,165 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Non-Categorized}
+
+All recipes, which do not fall into one of the underlying categories, are listed here.
+
+\subsection{Auto Login On Website}
+
+Using \lstinline{selenium} allows you to automatically open a new browser window and login into a certain website, e.g. GitHub.
+
+\lstinputlisting[caption=auto\_login\_website.py]{../third_party/auto_login_website.py}
+
+
+\subsection{Count Python Bytes In A Directory}
+
+\lstinline{PyFilesystem2} is Python's file system abstraction layer.
+You can use a file system object to analyse your files.
+The folowing recipe shows you how you can get the number of Python source code bytes in your directory.
+
+\lstinputlisting[caption=count\_python\_bytes.py]{../third_party/count_python_bytes.py}
+
+
+\subsection{Create World Maps}
+
+\lstinline{folium} builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the Leaflet.js library.
+Manipulate your data in Python, then visualize it in a Leaflet map via \lstinline{folium}.
+This recipe creates a world map with the USA in the centre of the map.
+
+\lstinputlisting[caption=folium\_snippet.py]{../third_party/folium_snippet.py}
+
+
+\subsection{Print Formatted JSON}
+
+Printing JSON object formatted is as easy as:
+
+\lstinputlisting[caption=formatted\_json.py]{../third_party/formatted_json.py}
+
+\begin{lstlisting}[caption=Output of formatted\_json.py]
+$ python formatted_json.py
+{
+    "userId": 1,
+    "id": 1,
+    "title": "delectus aut autem",
+    "completed": false
+}
+\end{lstlisting}
+
+\textbf{Note:} The snippet is part of the third party part as it makes use of the \lstinline{requests} library.
+The \lstinline{json} module is part of Pythons standard library.
+
+
+\subsection{Inspect Docker}
+
+You can inspect running Docker containers and existing images using the \lstinline{docker} module.
+
+\lstinputlisting[caption=inspect\_docker.py]{../third_party/inspect_docker.py}
+
+
+\subsection{Is Holiday}
+
+The \lstinline{holidays} module provides you an elegant and easy way to check, whether a given date is a holiday in the specified region.
+
+\lstinputlisting[caption=is\_holiday.py]{../third_party/is_holiday.py}
+
+
+\subsection{Web Scraping}
+
+The recipe in the \lstinline{mathematicians.py} file shows you how you can scrape information from the internet.
+It makes use of the following third party packages:
+
+\begin{itemize}
+    \item BeautifulSoup
+    \item requests
+\end{itemize}
+
+The recipe returns you the most popular mathematicians.
+As it's to long, please have a look at it in the repository.
+
+
+\subsection{Interacting With The Medium API}
+
+Another recipe, which is to long but worth to mention, is the one contianed by the \lstinline{medium.py} file.
+Running the file gives you the ability to interact with the Medium API via the command-line.
+
+
+\subsection{Mocking Requests}
+
+When writing tests for your application, you may come across the situation, where you have to mock requests.
+The following Listing shows you how you can do this by using the standard libraries \lstinline{unittest.mock} module.
+
+\lstinputlisting[caption=mocking\_requests.py]{../third_party/mocking_requests.py}
+
+
+\subsection{Mypy Example}
+
+The following Listing reveals the usage of \lstinline{mypy} as a static type checker.
+Running the snippet will throw a \lstinline{TypeError} as expected.
+
+\lstinputlisting[caption=mypy\_example.py]{../third_party/mypy_example.py}
+
+
+\subsection{NumPy Array Operations}
+
+Running the following code snippet reveals you some of the existing \lstinline{numpy} array operations.
+
+\lstinputlisting[caption=numpy\_array\_operations.py]{../third_party/numpy_array_operations.py}
+
+\begin{lstlisting}[caption=Output of numpy\_array\_operations.py]
+$ python numpy_array_operations.py
+[ 2  4  6  8 10]
+[ 1  4  9 16 25]
+\end{lstlisting}
+
+
+\subsection{Parse Complex Excel Sheets}
+
+You can parse more complex Excel Sheets by using \lstinline{pandas} and installed a \lstinline{pandas} extension called \lstinline{xlrd}.
+
+\lstinputlisting[caption=parse\_complex\_excel\_sheets.py]{../third_party/parse_complex_excel_sheets.py}
+
+
+\subsection{Nmap For Python}
+
+Creating your own port scanner becomes easy when using \lstinline{nmap}.
+Luckily, a Python package exists providing access to nmap: \lstinline{python-nmap}.
+\textbf{Hint:} Make sure you have Nmap installed on your operating system as \lstinline{python-nmap} only provides access to the Nmap API.
+
+\lstinputlisting[caption=port\_scanner\_nmap.py]{../third_party/port_scanner_nmap.py}
+
+
+\subsection{Test Renamed Class}
+
+Renaming a class can happen over time.
+If you want to test, wether your code is backwards compatible, you can make use of the following snippet.
+
+\lstinputlisting[caption=pytest\_rename\_class\_backwards\_compatibility.py]{../third_party/pytest_rename_class_backwards_compatibility.py}
+
+
+\subsection{Reduce Pandas Dataframe Memory}
+
+When dealing with large data sets, it can be an advantage to change column types from \lstinline{object} to \lstinline{category} as shown in the next Listing.
+
+\lstinputlisting[caption=reduce\_pandas\_df\_memory.py]{../third_party/reduce_pandas_df_memory.py}
+
+
+\subsection{Async Libraries}
+
+Before \lstinline{async}/\lstinline{await} became so popular and part of the standard library, you had several options to use asynchronous techniques in your project.
+The three main ones were \lstinline{asynio}, \lstinline{gevent} and \lstinline{tornado}.
+You can find an example for each in the \textit{third\_party} directory of the repository.
+The file names are as follows:
+
+\begin{itemize}
+    \item \lstinline{test_asyncio.py}
+    \item \lstinline{test_gevent.py}
+    \item \lstinline{test_tornado.py}
+\end{itemize}
+
+
+\subsection{Unzip World Bank Data}
+
+The following recipe shows you how you can download a \lstinline{.zip} file from an online source, extract and work with the data.
+Therefore, except the \lstinline{requests} library only standard library modules are used.
+
+\lstinputlisting[caption=world\_bank\_data.py]{../third_party/world_bank_data.py}
