@@ -1,6 +1,6 @@
-import numpy as np
-import matplotlib.pyplot as plt
 import animatplot as amp
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 x = np.linspace(0, 1, 50)
