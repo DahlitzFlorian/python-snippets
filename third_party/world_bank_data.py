@@ -1,7 +1,8 @@
-# Download and display zipped csv data from databank.worldbank.org
-# See: https://forum.omz-software.com/topic/3413/download-and-unzip-files
+import csv
+import io
+import zipfile
 
-import csv, io, requests, zipfile  # noqa
+import requests
 
 
 url = "http://databank.worldbank.org/data/download/WDI_csv.zip"
