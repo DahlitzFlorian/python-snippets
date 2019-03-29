@@ -1,7 +1,3 @@
-"""
-Illustrates the usage of boxx.timeit() reveilling the time a certain
-code block takes to run.
-"""
 from boxx import timeit
 from time import sleep
 
