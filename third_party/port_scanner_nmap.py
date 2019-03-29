@@ -1,5 +1,3 @@
-"""Reference: https://medium.com/ediblesec/5-python-libraries-for-cyber-security-8f34f5f1e3b8
-Hint: Make sure, that you have Nmap installed on your OS"""
 import nmap
 
 nm = nmap.PortScanner()
