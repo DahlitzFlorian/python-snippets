@@ -1,0 +1,121 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Command-Line}
+
+In this section you will find useful snippets when dealing with command-lines.
+
+\subsection{Attention Please!}
+
+Sometimes you need to create an eye catcher on the command-line.
+Therefore, you can use \lstinline{termcolor} to create one.
+In the following code snippet you will find the code necessary to create a blinking white message on a red background.
+
+\lstinputlisting[caption=attention\_message.py]{../third_party/attention_message.py}
+
+
+\subsection{Colored Python}
+
+As indicated in the previous recipe, you can use \lstinline{termcolor} to print colored strings on the command-line.
+
+\lstinputlisting[caption=colored\_python.py]{../third_party/colored_python.py}
+
+
+\subsection{Generate CLI Help Strings}
+
+Making use of \lstinline{docopt} you can generate cli help strings based on Python docstrings.
+
+\lstinputlisting[caption=cli\_help\_strings.py]{../third_party/cli_help_strings.py}
+
+\begin{lstlisting}[caption=Output of cli\_help\_string.py]
+$ python cli_help_strings.py --help
+CLI HELP STRINGS
+Usage:
+    cli_help_strings.py
+    cli_help_strings.py <name>
+    cli_help_strings.py -h|--help
+    cli_help_strings.py -v|--version
+Options:
+    <name>  Optional name argument.
+    -h --help  Show this screen.
+    -v --version  Show version.
+\end{lstlisting}
+
+
+\subsection{Parse And Print Colored Arguments}
+
+\lstinline{clint} provides you the functionalities to parse command-line arguments and to print them in a colored way.
+
+\lstinputlisting[caption=clint\_cli\_tool.py]{../third_party/clint_cli_tool.py}
+
+\begin{lstlisting}[caption=Output of clint\_cli\_tool.py]
+$ python clint_cli_tool.py
+>>> Arguments passed in: []
+>>> Flags detected: <args []>
+>>> Files detected: []
+>>> NOT Files detected: <args []>
+>>> Grouped Arguments: {'_': <args []>}
+\end{lstlisting}
+
+\textbf{Note:} The keywords between \lstinline{>>>} and the colon are blue.
+
+
+\subsection{Print Tables}
+
+You can use \lstinline{prettytable} to print a table on the command-line.
+
+\lstinputlisting[caption=display\_tables.py]{../third_party/display_tables.py}
+
+\begin{lstlisting}[caption=Output of display\_tables.py]
+$ python display_tables.py
++------+-------+
+| food | price |
++------+-------+
+| ham  |   $2  |
+| eggs |   $1  |
+| spam |   $4  |
++------+-------+
+\end{lstlisting}
+
+
+\subsection{Fancy CLI Header}
+
+Ever wondered how other projects create those fancy cli headers?
+You can use \lstinline{pyfiglet} to achieve exactly that!
+
+\lstinputlisting[caption=fancy\_cli\_header.py]{../third_party/fancy_cli_header.py}
+
+The following output is not included as image.
+It's copied and pasted directly from the command-line.
+So if you recognize a non-fancy header, make sure to try it yourself to get a better impression of what you can achieve with this recipe.
+
+\begin{minipage}{\textwidth}
+\begin{lstlisting}[caption=Output of fancy\_cli\_header.py]
+    __            __     __       
+    / /____  _  __/ /_   / /_____  
+   / __/ _ \| |/_/ __/  / __/ __ \ 
+  / /_/  __/>  </ /_   / /_/ /_/ / 
+  \__/\___/_/|_|\__/   \__/\____/     
+                                                                     
+\end{lstlisting}
+\end{minipage}
+
+
+\subsection{Interactive CLI}
+
+By using \lstinline{PyInquirer} you can create interactive command-line interfaces.
+As the file is to long to be displayed here, I refer to the \lstinline{interactive_cli.py} file contained by the \textit{third\_party} directory of the repository.
+I recommend to run the snippet and get a feeling for what's possible with this amazing package.
+
+
+\subsection{Creating A Progress Bar}
+
+As the name already suggests, \lstinline{progressbar} can be used to create a progress bar on the command-line.
+
+\lstinputlisting[caption=shows\_progress.py]{../third_party/show_progress.py}
+
+
+\subsection{Creating A Simple Progress Bar}
+
+This code snippet is similar to the last one except the fact, that this one uses the \lstinline{tqdm} package.
+
+\lstinputlisting[caption=simple\_progressbar.py]{../third_party/simple_progressbar.py}

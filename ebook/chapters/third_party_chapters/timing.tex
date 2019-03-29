@@ -1,0 +1,41 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Timing}
+
+The \textit{Timing} section contains snippets related to timing.
+This means, that you'll find ways to time the execution time of certain code parts and much more.
+To achieve that, \lstinline{boxx} is mainly used.
+
+
+\subsection{Timing Tool: boxx}
+
+The third party \lstinline{boxx} module provides you a pretty neat way to time your code executions via \lstinline{with}-blocks.
+
+\lstinputlisting[caption=timing\_tool.py]{../third_party/timing_tool.py}
+
+\begin{lstlisting}[caption=Output of timing\_tool.py]
+$ python timing_tool.py
+"timeit" spend time: 0.01047492
+"sleep" spend time: 0.10027
+\end{lstlisting}
+
+
+\subsection{f-strings VS str}
+
+Let's say you want to convert an integer to a string.
+There exist different ways to do that.
+Working on an open source project I came across an option I've never thought of: using f-strings.
+But which method is faster?
+Using the builtin \lstinline{str} function or f-strings?
+You can use \lstinline{boxx} to time it easily.
+
+\lstinputlisting[caption=f-strings\_vs\_str.py]{../third_party/f-strings_vs_str.py}
+
+\begin{lstlisting}[caption=Output of f-strings\_vs\_str.py]
+$ python f-strings_vs_str.py
+"f-strings" spend time: 0.09714508
+"str" spend time: 0.1627851
+\end{lstlisting}
+
+\textbf{Note:} Even though f-strings are faster in this situation, keep in mind, that the builtin \lstinline{str} function is preferred to be used.
+Clean code is usually more important than efficiency.

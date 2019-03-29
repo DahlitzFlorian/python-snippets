@@ -1,0 +1,66 @@
+% !TeX root = ../../python-snippets.tex
+
+\section{Image and Animation}
+
+The section \textit{Image and Animation} contains recipes for image and video manipulation as well as animation creation.
+
+\subsection{Create A GIF}
+
+You can create a GIF by using the following three third party packages:
+
+\begin{itemize}
+    \item \lstinline{animatplot}
+    \item \lstinline{matplotlib}
+    \item \lstinline{numpy}
+\end{itemize}
+
+\lstinputlisting[caption=animated\_graphics.py]{../third_party/animated_graphics.py}
+
+\textbf{Note:} Make sure, that an \lstinline{images} directory exists as it's not created automatically.
+
+
+\subsection{Change Image Background}
+
+To be able to use this recipe you not only need to have \lstinline{numpy} installed but also have \lstinline{OpenCV} installed on your system.
+There is an unofficial pre-built OpenCV packages for Python availabl on PyPI.
+You can install it via \lstinline{pip}.
+
+\begin{lstlisting}[caption=Install the unofficial pre-build OpenCV Python package from PyPI]
+$ python -m pip install opencv-python
+\end{lstlisting}
+
+\lstinputlisting[caption=change\_bg.py]{../third_party/change_bg.py}
+
+\textbf{Note:} \lstinline{np.array([114, 89, 47])} represents the background image you want to replace by the one on the next line.
+
+
+\subsection{Manipulate Images Using Imageio}
+
+\lstinline{imageio} is a Python library that provides an easy interface to read and write a wide range of image data, including animated images, volumetric data, and scientific formats.
+The following Listing shows you how to read an image from an url, turn it into a grey one and finally save it after blurring.
+
+\lstinputlisting[caption=manipulate\_images.py]{../third_party/manipulate_images.py}
+
+
+\subsection{Resize Images}
+
+With \lstinline{OpenCV} it's possible to manipulate images.
+This includes resizing images as well.
+This recipe shows you how all \lstinline{.jpg} images in the current working directory can be resized.
+
+\lstinputlisting[caption=resize\_images.py]{../third_party/resize_images.py}
+
+
+\subsection{Hide Image Inside Another}
+
+Making use of the steganography technique (hiding information), you can hide a whole image in another one.
+This can be achieved by using the Python Imaging Library (PIL) or the active developed fork \textit{Pillow}.
+The recipe contained by the \lstinline{steganography.py} file provides you a CLI, which you can use to hide an image inside another.
+
+
+\subsection{Create Own Images}
+
+Using four different packages, you can create your own (random generated) image.
+The following Listing reveals you the necessary source code.
+
+\lstinputlisting[caption=tensorflow\_image.py]{../third_party/tensorflow_image.py}
