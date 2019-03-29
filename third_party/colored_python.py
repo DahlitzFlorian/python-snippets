@@ -1,4 +1,3 @@
-"""Reference: https://medium.com/@chrisdoucette15/printing-in-color-with-python-816e6f318dfd"""
 from termcolor import colored, cprint
 
 # Normal print
