@@ -38,6 +38,7 @@ A collection of useful snippets using only the standard library.
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | parse_query_string | Parse a query string |
 | pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
+| pathlib_relpath | `pathlib.Path` implementation of `os.relpath` (should never be used) |
 | port_scanner | Simple port scanner implementation using built-in packages |
 | print_human_friendly_numbers | Use `format` to print large numbers human friendly |
 | priority_queue | Implement a priority queue using `heapq` |

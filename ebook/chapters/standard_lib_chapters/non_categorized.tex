@@ -196,3 +196,19 @@ $ python tree_clone.py
 @\pmboxdrawuni{2514}@---- test.py
 @\pmboxdrawuni{2514}@---- utils.py
 \end{lstlisting}
+
+
+\subsection{pathlib implementation of os.relpath}
+
+The following Listing is a \lstinline{pathlib.Path} implementation of \lstinline{os.relpath}, which should \textit{never} be used in production.
+It's only meant to show a nice hacky implementation of \lstinline{os.relpath} as its not provided by default by \lstinline{pathlib.Path}.
+
+\lstinputlisting[caption=pathlib\_relpath.py]{../standard_lib/pathlib_relpath.py}
+
+The snippet assumes that you have at least two directories in your current working directory: \lstinline{foo} and \lstinline{baz}.
+The output is shown in the following Listing:
+
+\begin{lstlisting}[caption=Output of pathlib\_relpath.py]
+$ python pathlib_relpath.py
+.
+\end{lstlisting}
