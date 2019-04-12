@@ -17,4 +17,4 @@ def dodge(front, back):
 
 
 final_img = dodge(blur_img, gray_inv_img)
-imageio.imwrite('final.jpg', final_img)
+imageio.imwrite("final.jpg", final_img)
