@@ -51,6 +51,7 @@ A collection of useful snippets using only the standard library.
 | save_dict_update_without_loosing_original | Update dict value without loosing original value |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | set_union_intersection | Use \| and & for set union and intersection |
+| slice_generators | Slice generators using `itertools.islice` |
 | sort_complex_tuples | Sort complex tuples by one of their keys |
 | split_preserving_sub-strings | Python standard lib's `shlex` splitting strings preserving sub-strings |
 | string_capitalize | Difference between title() and capitalize() |

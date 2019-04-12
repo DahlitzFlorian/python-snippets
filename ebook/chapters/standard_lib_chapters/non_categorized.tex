@@ -212,3 +212,14 @@ The output is shown in the following Listing:
 $ python pathlib_relpath.py
 .
 \end{lstlisting}
+
+
+\subsection{Slicing Generators}
+
+Generators are a pretty nice thing.
+For instance you can write a function returning the fibonacci numbers using \lstinline{yield} turning it into a generator, which is way more efficient than creating a function calculating a finite number of results and returning the resulting list.
+The problem: You're not able to slice the returned generator.
+Or at least you can't using the \lstinline{[]}-operator.
+Making use of the awesome \lstinline{itertools} module, you can!
+
+\lstinputlisting[caption=slice\_generators.py]{../standard_lib/slice_generators.py}
