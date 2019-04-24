@@ -163,3 +163,16 @@ The following recipe shows you how you can download a \lstinline{.zip} file from
 Therefore, except the \lstinline{requests} library only standard library modules are used.
 
 \lstinputlisting[caption=world\_bank\_data.py]{../third_party/world_bank_data.py}
+
+
+\subsection{Simple Debugger}
+
+When writing Python code you may come across situations, where you want to find out, what's going on.
+Sometimes you may make use of an actual debugger, but most of the times inserting some \lstinline{print}-statements seems just fine.
+The \lstinline{PySnooper} package is probably the best reason, why you should never use \lstinline{print}-statements to debug your code again.
+The following Listing shows you the simple usage of its \lstinline{snoop} decorator.
+
+\lstinputlisting[caption=simple\_debugger.py]{../third_party/simple_debugger.py}
+
+The output is too long to be covered here.
+Feel free to run the snippet from your terminal and get a sense of how amazing and helpful this little package can be.

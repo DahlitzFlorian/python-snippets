@@ -38,6 +38,7 @@ fs = "*"
 pytest = "*"
 requests = "*"
 xlrd = "*"
+pysnooper = "*"
 
 [dev-packages]
 

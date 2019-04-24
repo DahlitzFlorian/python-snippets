@@ -34,6 +34,7 @@ A collection of useful snippets using third party packages.
 | refactoring_code | Refactoring Python code using rope |
 | resize_images | Resize all images in the current directory using OpenCV |
 | show_progress | Shows the progress using progressbar |
+| simple_debugger | Use PySnoopers's decorator to debug functions |
 | simple_progressbar | Create a simple progressbar using tqdm.tqdm() |
 | steganography | Hide an image inside another |
 | tensorflow_image | Generate an image using tensorflow |
