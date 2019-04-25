@@ -12,6 +12,7 @@ A collection of useful snippets using third party packages.
 | cli_help_strings | Beautiful rendered cli help strings |
 | clint_cli_tool | Tool helping you to create awesome CLIs |
 | colored_python | Print colored text to stdout using termcolor |
+| cooked_input_example | Getting, cleaning, converting, and validating command line input |
 | count_python_bytes | Get the bytes size of all Python files in a certain directory and it's subdirectories |
 | display_tables | Using prettytable to display tables well-formatted in the console |
 | fancy_cli_header | Turns strings into ASCII text with arts fonts (fancy CLI header) |

@@ -39,6 +39,7 @@ pytest = "*"
 requests = "*"
 xlrd = "*"
 pysnooper = "*"
+cooked-input = "*"
 
 [dev-packages]
 
