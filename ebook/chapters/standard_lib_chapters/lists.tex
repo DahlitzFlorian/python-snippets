@@ -65,3 +65,16 @@ a = 1
 b = [2, 3, 4]
 c = 5
 \end{lstlisting}
+
+
+\subsection{Remove Elements Not Matching Pattern}
+
+Let's assume you have a list of certain data and want to remove all elements in it, which are not matching a certain pattern.
+You could make use of the built-in \lstinline{list.remove()} method, which removes the first match of and then shifts all subsequent data one position to the left.
+So, if you want to remove all, you need to loop over it.
+However, this approach gives quadratic behaviour.
+The following Listing shows you a much better way to achieve this:
+
+\lstinputlisting[caption=remove\_elements\_list.py]{../standard_lib/remove_elements_list.py}
+
+This approach is not only faster, but creates a new, distinct list and then replaces the old contents all at once.
