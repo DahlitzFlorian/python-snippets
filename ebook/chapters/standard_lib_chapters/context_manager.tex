@@ -32,3 +32,21 @@ $ python temptable_contextmanager.py
 (2, 1)
 (5,)
 \end{lstlisting}
+
+
+\subsection{Timing Context Manager}
+
+Sometimes you simply want to find out, how long a certain code block needs to be executed.
+To do that you have different options: Use a third-party package like \lstinline{boxx} or create your own timing context manager based on the standard library.
+The following Listing shows you, how you can create your own timing context manager.
+In specific, this approach makes use of a generator function (you can implement this context manager based on a class as well).
+
+\lstinputlisting[caption=timing\_context\_manager.py]{../standard_lib/timing_context_manager.py}
+
+As you can see, the code is pretty straightforward.
+An example output is shown below.
+
+\begin{lstlisting}[caption=Output of timing\_context\_manager.py]
+$ python timing_context_manager.py
+Time List Comprehension: 0.5184009075164795
+\end{lstlisting}

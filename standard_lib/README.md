@@ -57,6 +57,7 @@ A collection of useful snippets using only the standard library.
 | split_preserving_sub-strings | Python standard lib's `shlex` splitting strings preserving sub-strings |
 | string_capitalize | Difference between title() and capitalize() |
 | temptable_contextmanager | Create a contextmanager providing a temptable for SQLite |
+| timing_context_manager | A simple timing context manager based on a generator function |
 | trace_decorator | Trace decorator tracing function calls |
 | tree_clone | Python clone of the UNIX tree command - but better! |
 | unicode_source_code | Example on how awesome unicode in source code is |
