@@ -223,3 +223,17 @@ Or at least you can't using the \lstinline{[]}-operator.
 Making use of the awesome \lstinline{itertools} module, you can!
 
 \lstinputlisting[caption=slice\_generators.py]{../standard_lib/slice_generators.py}
+
+
+\subsection{Count Elements Between Thresholds}
+
+If you want to get the number of elements between certain thresholds, you can make use of the following Listing.
+
+\lstinputlisting[caption=count\_thresholds.py]{../standard_lib/count_thresholds.py}
+
+The essential point is, that you can sum booleans as they are a subclass of integers.
+
+\begin{lstlisting}[caption=Output of count\_thresholds.py]
+$ python count_thresholds.py
+3
+\end{lstlisting}

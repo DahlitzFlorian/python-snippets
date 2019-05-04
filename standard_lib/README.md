@@ -15,6 +15,7 @@ A collection of useful snippets using only the standard library.
 | capture_output | Capture the output of a function generally directing to stdout |
 | check_pattern | Check for multiple string patterns |
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
+| count_thresholds | Count the number of elements between certain thresholds |
 | crazy_dict_expression | The craziest dictionary expression ever seen |
 | deprecated_decorator | Prints a DeprecationWarning when using a function/method marked as deprecated |
 | dict_based_on_lists | Create a dict based on two lists |
