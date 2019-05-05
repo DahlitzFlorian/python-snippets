@@ -133,3 +133,19 @@ $ python cooked_input_example.py
 What is your name?: FlOriAn dAhliTz
 Florian Dahlitz
 \end{lstlisting}
+
+
+\subsection{Image To ASCII Art}
+
+Once in a while you may want to enhance the look and feel of your command-line application by adding some ascii art to it.
+Luckily, the folowing to recipes allow you to create ascii arts based on images.
+As both recipes are quite long, they are not display here, but you can find them in the corresponding repository.
+
+The first one saves the ascii art to a file called \lstinline{out.txt} in your current working directory.
+The second one prints the resulting ascii art directly to stdout.
+Make sure to checkout the code of the first recipe as it shows you, which arguments you can pass to the file.
+
+\begin{lstlisting}[caption=Usage of both recipes]
+$ python img_to_ascii.py --file src/python.png --cols 120
+$ python img_to_ascii_2.py src/python.png
+\end{lstlisting}
