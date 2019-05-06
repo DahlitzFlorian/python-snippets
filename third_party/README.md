@@ -43,5 +43,6 @@ A collection of useful snippets using third party packages.
 | test_asyncio | Example on how to use asyncio |
 | test_gevent | Demonstrates the usage of gevent |
 | test_tornado | Reveales the usage of tornado |
+| text_analysis | Analyse text using TextBlob |
 | timing_tool | Illustrates the usage of boxx.timeit() reveilling the time a certain code block takes to run |
 | world_bank_data | Using official world bank data to demonstrate the usage of `zipfile` and `csv` |

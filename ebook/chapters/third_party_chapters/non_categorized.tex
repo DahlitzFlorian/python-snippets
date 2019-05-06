@@ -176,3 +176,19 @@ The following Listing shows you the simple usage of its \lstinline{snoop} decora
 
 The output is too long to be covered here.
 Feel free to run the snippet from your terminal and get a sense of how amazing and helpful this little package can be.
+
+
+\subsection{Text Analysis}
+
+If you want a simple way to perform text analysis, you can use \lstinline{TextBlob}.
+The following snippet shows you a sample usage.
+Make sure to read the docs of the package as it provides functionality for translations and further analysis, too.
+
+\lstinputlisting[caption=text\_analysis.py]{../third_party/text_analysis.py}
+
+\textbf{Note:} Make sure to download the needed data before hand, otherwise an exception is thrown telling you to download it.
+
+\begin{lstlisting}[caption=Download data using NLTK]
+>>> import nltk
+>>> nltk.download('averaged_perceptron_tagger')
+\end{lstlisting}
