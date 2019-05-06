@@ -22,3 +22,12 @@ If not using iterators, the whole file is loaded into memory at once (think of s
 If using iterators, only the next line is loaded.
 
 \lstinputlisting[caption=read\_files\_using\_iterator.py]{../standard_lib/read_files_using_iterator.py}
+
+
+\subsection{File Matching Using \lstinline{fnmatch}}
+
+Matching certain strings is easy if you use Pythons built-in \lstinline{fnmatch} module.
+It even provides you functionality to translate the easy to use \lstinline{fnmatch} patterns into regular expressions.
+The following recipe shows you a sample usage filtering markdown files and \lstinline{git}-related files in your current working directory.
+
+\lstinputlisting[caption=file\_matching\_regex.py]{../standard_lib/file_matching_regex.py}

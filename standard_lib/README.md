@@ -22,6 +22,7 @@ A collection of useful snippets using only the standard library.
 | disassemble_bytecode | Shows the bytecode representation of f-strings and str() conversion of integers |
 | drawing_turtle | Drawing a dragon symbol using Python's built-in turtle |
 | emulate_switch_case | Emulate switch-case-statements as they don't exist in Python |
+| file_matching_regex | Find matching files using `re` and `fnmatch` |
 | fill_zeros | Fill strings using leading zeros. |
 | flatten | Flatten a nested iterable |
 | function_arguments | Example on how to (not) use function arguments |
