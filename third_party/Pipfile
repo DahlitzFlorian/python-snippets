@@ -41,6 +41,7 @@ xlrd = "*"
 pysnooper = "*"
 cooked-input = "*"
 textblob = "*"
+blist = "*"
 
 [dev-packages]
 
