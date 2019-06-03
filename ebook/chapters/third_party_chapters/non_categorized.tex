@@ -192,3 +192,23 @@ Make sure to read the docs of the package as it provides functionality for trans
 >>> import nltk
 >>> nltk.download('averaged_perceptron_tagger')
 \end{lstlisting}
+
+
+\subsection{Complex List Ops}
+
+In your day to day work you will very likely come across performance issues in Python.
+Sometimes it's a good idea to choose a different data structure than you have used to speed up certain operations.
+However, you may come across situations where this is even not enough.
+Instead of switching to another language like C, you may want to check out the \lstinline{blist} package first.
+\glqq The \lstinline{blist} is a drop-in replacement for the Python list that provides better performance when modifying large lists.\grqq
+Here is a small snippet illustrating the huge impact of using a \lstinline{blist} instead of a \lstinline{list}:
+
+\lstinputlisting[caption=complex\_list\_ops.py]{../third_party/complex_list_ops.py}
+
+\begin{lstlisting}[caption=Output of complex\_list\_ops.py]
+$ python complex_list_ops.py
+"Builtin" spend time: 24.61005
+"Blist" spend time: 4.675813
+\end{lstlisting}
+
+\glqq The blist package also provides \lstinline{sortedlist}, \lstinline{sortedset}, [...] \lstinline{btuple} types\grqq , and much more.
