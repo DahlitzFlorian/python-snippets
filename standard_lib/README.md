@@ -39,6 +39,7 @@ A collection of useful snippets using only the standard library.
 | open_browser_tab | Opens a new tab in a specified browser (and more) |
 | overwrite_dictionary | PEP 448 - overwriting dictionary of default values |
 | parse_query_string | Parse a query string |
+| partial_function | Return a new partial object which when called will behave like func called with the positional arguments args and keyword arguments keywords |
 | pass_multiple_dicts | Unpack multiple dicts and pass them as keyword args to a function |
 | pathlib_relpath | `pathlib.Path` implementation of `os.relpath` (should never be used) |
 | port_scanner | Simple port scanner implementation using built-in packages |
