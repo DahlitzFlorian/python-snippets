@@ -33,6 +33,7 @@ A collection of useful snippets using third party packages.
 | parse_complex_excel_sheets | Parse complex Excel Sheets using `pandas` and `xlrd` |
 | port_scanner_nmap | Port Scanner using nmap |
 | pytest_rename_class_backwards_compatibility | Rename a critical class and test for backwards compatibility |
+| range_vs_repeat | `itertools.repeat()` is faster than `range()` for looping a fixed number of times when you don't need the loop variable |
 | reduce_pandas_df_memory | Reduce pandas df memory usage by converting `object` to `category` |
 | refactoring_code | Refactoring Python code using rope |
 | resize_images | Resize all images in the current directory using OpenCV |

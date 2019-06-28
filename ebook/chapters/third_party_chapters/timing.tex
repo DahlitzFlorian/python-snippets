@@ -39,3 +39,19 @@ $ python f-strings_vs_str.py
 
 \textbf{Note:} Even though f-strings are faster in this situation, keep in mind, that the builtin \lstinline{str} function is preferred to be used.
 Clean code is usually more important than efficiency.
+
+
+\subsection{range VS repeat}
+
+\lstinline{itertools.repeat} is faster than \lstinline{range} for looping a fixed number of times when you don't need the loop variable.
+An example is given below.
+
+\lstinputlisting[caption=range\_vs\_repeat.py]{../third_party/range_vs_repeat.py}
+
+As you can see, \lstinline{itertools.repeat} is slightly faster.
+
+\begin{lstlisting}[caption=Output of range\_vs\_repeat.py]
+$ python range_vs_repeat.py
+"Range" spend time: 0.01480103
+"Repeat" spend time: 0.01320004
+\end{lstlisting}
