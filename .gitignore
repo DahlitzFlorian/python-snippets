@@ -25,5 +25,6 @@ build.sh
 *.fdb_latexmk
 *.fls
 *.log
+*.out
 *.synctex.gz
 *.toc
