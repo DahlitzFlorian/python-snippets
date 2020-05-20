@@ -1,9 +1,12 @@
-[[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
-name = "pypi"
+[tool.poetry]
+name = "third_party"
+version = "0.1.0"
+description = ""
+authors = ["Florian Dahlitz <f2dahlitz@freenet.de>"]
+license = "MIT"
 
-[packages]
+[tool.poetry.dependencies]
+python = "^3.6"
 folium = "*"
 pandas = "*"
 imageio = "*"
@@ -25,7 +28,7 @@ opencv-python = "*"
 aiohttp = "*"
 gevent = "*"
 tornado = "*"
-"beautifulsoup4" = "*"
+beautifulsoup4 = "*"
 holidays = "*"
 selenium = "*"
 docker = "*"
@@ -42,4 +45,8 @@ cooked-input = "*"
 textblob = "*"
 blist = "*"
 
-[dev-packages]
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
