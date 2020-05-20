@@ -40,3 +40,18 @@ The second option can be used to save the output to a specified file.
 In this case we save the output to \lstinline{help.txt}.
 
 Last but not least we are redirecting the output to stderr.
+
+
+\subsection{max() Key Function}
+
+As many other built-in functions, the \lstinline{max()} function allows you to specify a key function.
+This allows you to (for instance) have a list of strings of integers and select the largest number of them.
+Without specifying \lstinline{key}, the wrong element is being selected.
+
+\lstinputlisting[caption=max\_int\_in\_list\_of\_str.py]{../standard_lib/max_int_in_list_of_str.py}
+
+\begin{lstlisting}[caption=Output of max\_int\_in\_list\_of\_str.py]
+    $ python max_int_in_list_of_str.py
+    9
+    222
+\end{lstlisting}

@@ -32,6 +32,7 @@ A collection of useful snippets using only the standard library.
 | human_readable_bytecode | Print the bytecode representations in a human readble format |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | list_unpacking | Unpacking a list using the `*` operator |
+| max_int_in_list_of_str | Get the largest number from a list of strings |
 | merge_arbitrary_number_of_dicts | The most pythonic way to merge an arbitrary number of dicts |
 | MicroWebServer | A lightweight micro web server |
 | multi_dict_with_init | Provide a multi dict with default value using `defaultdict` |
