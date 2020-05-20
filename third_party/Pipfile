@@ -22,7 +22,6 @@ clint = "*"
 docopt = "*"
 tqdm = "*"
 opencv-python = "*"
-tensorflow = "*"
 aiohttp = "*"
 gevent = "*"
 tornado = "*"
@@ -44,6 +43,3 @@ textblob = "*"
 blist = "*"
 
 [dev-packages]
-
-[requires]
-python_version = "3.6"

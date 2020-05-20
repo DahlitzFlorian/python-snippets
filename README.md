@@ -6,8 +6,11 @@ A collection of useful Python snippets.
 on third-party packages.
 
 **third-party:** As the name suggests, it contains those snippets
-depending on third-party packages, even though it's only `requests`
+depending on third-party packages, even if it's only `requests`
 or `click`.
+
+> **Note:** Due to the changed distribution settings of the library `tensorflow`, you need to install it separately on your system in order to run some of the snippets in this repo.
+> `tensorflow` is no longer part of the repositories `Pipfile`.
 
 **ebook:** Contains an ebook including the provided snippets and additional explanations and insights.
 The ebook is available as `.epub`, `.mobi` and `.pdf`.
