@@ -1,2 +1,4 @@
-pandoc --toc $1.tex -o $1.epub
-ebook-convert $1.epub $1.mobi
+NAME=$(basename -s .tex "$1")
+latexmk "$1"
+pandoc --toc $NAME.tex -o $NAME.epub
+ebook-convert $NAME.epub $NAME.mobi
