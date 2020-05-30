@@ -237,3 +237,22 @@ The essential point is, that you can sum booleans as they are a subclass of inte
 $ python count_thresholds.py
 3
 \end{lstlisting}
+
+
+\subsection{Empty Set Literal}
+
+People, who are new to Python, meeting the built-in set type for the first time often get confused when trying to create an empty set by using the \lstinline|{}| literal.
+This literal is already reserved for creating empty dictionaries.
+The normal way to create a new empty set in Python is to use the \lstinline{set()} constructor.
+However, if you like, you can use a literal, too!
+
+\lstinputlisting[caption=empty\_set\_literal.py]{../standard_lib/empty_set_literal.py}
+
+What happens here is that an empty list (using the list literal \lstinline{[]}) is created and unpacked using the \lstinline{*}-operator.
+The elements from the unpacked empty list are passed to the curly braces.
+Even though no elements at all are passed to the set literal, Python accepts it as valid set creation syntax.
+
+\begin{lstlisting}[caption=Output of empty\_set\_literal.py]
+$ python empty_set_literal.py
+set()
+\end{lstlisting}
