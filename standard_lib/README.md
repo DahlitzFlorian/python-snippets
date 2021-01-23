@@ -58,6 +58,7 @@ A collection of useful snippets using only the standard library.
 | regular_expression_debug | Display debug information about the compiled regular expression with re.DEBUG flag |
 | remove_duplicates_list | Remove duplicates from list and keep the order |
 | remove_elements_list | Remove elements not matching certain pattern - the fast way! |
+| reverse_iterables | Reverse an iterable using `reversed()` |
 | save_dict_update_without_loosing_original | Update dict value without loosing original value |
 | scopes_namespaces | Reveils the differences between `global`, `local`, and `nonlocal` |
 | set_union_intersection | Use \| and & for set union and intersection |
