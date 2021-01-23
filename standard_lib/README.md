@@ -16,6 +16,7 @@ A collection of useful snippets using only the standard library.
 | chained_assignments | Assign a value to multiple variables using chained assignments |
 | chained_comparison | Chain comparisons to have more math-like comparisons |
 | check_pattern | Check for multiple string patterns |
+| combine_iterables | Combine two iterables using `zip()` |
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
 | count_thresholds | Count the number of elements between certain thresholds |
 | crazy_dict_expression | The craziest dictionary expression ever seen |
