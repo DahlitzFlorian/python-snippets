@@ -28,6 +28,7 @@ A collection of useful snippets using only the standard library.
 | file_matching_regex | Find matching files using `re` and `fnmatch` |
 | fill_zeros | Fill strings using leading zeros. |
 | flatten | Flatten a nested iterable |
+| for_loop_index | Utilize enumerate() to get the index of the current iteration |
 | function_arguments | Example on how to (not) use function arguments |
 | get_password_input | Request user input without showing, what he or she is typing |
 | hash_file | Hash a file using built-in packages |
