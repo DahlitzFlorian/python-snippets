@@ -71,4 +71,5 @@ A collection of useful snippets using only the standard library.
 | unicode_source_code | Example on how awesome unicode in source code is |
 | update_dict_using_tuples | Update a dict using a list of tuples representing key-value-pairs |
 | uuid1_example | Generate RFC compliant UUID |
+| variable_swapping | Swap the values of two variables in one line of code |
 | zip_safe | Illustrates how zip is stopping if one iterable is exhausted without a warning and how to prevent it |
