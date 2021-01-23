@@ -14,6 +14,7 @@ A collection of useful snippets using only the standard library.
 | builtins_manipulation | Illustrates the easy overriding/manipulation of built-in functions |
 | capture_output | Capture the output of a function generally directing to stdout |
 | chained_assignments | Assign a value to multiple variables using chained assignments |
+| chained_comparison | Chain comparisons to have more math-like comparisons |
 | check_pattern | Check for multiple string patterns |
 | compare_strings | Use `difflib.SequenceMatcher` to compare strings |
 | count_thresholds | Count the number of elements between certain thresholds |
