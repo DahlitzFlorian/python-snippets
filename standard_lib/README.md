@@ -6,7 +6,7 @@ A collection of useful snippets using only the standard library.
 | Snippet Name | Description |
 |--------------|-------------|
 | abc_class | Example on how to use abc |
-| async_sleep_async | Async snippet demonstarting the usage of asyncio.sleep() |
+| async_sleep_async | Async snippet demonstrating the usage of asyncio.sleep() |
 | async_sleep_sync | Async snippet demonstrating the usage of time.sleep() |
 | binary_search | Demonstrating the efficiency of the binary search algorithm |
 | bit_flipper | A poor man's encryption |
