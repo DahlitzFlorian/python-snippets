@@ -33,6 +33,7 @@ A collection of useful snippets using only the standard library.
 | hash_file | Hash a file using built-in packages |
 | hex_decode | Get bytes-like string from hex |
 | human_readable_bytecode | Print the bytecode representations in a human readble format |
+| iterable_unpacking | Unpack an iterable and assigns its elements to multiple variables |
 | keep_metadata_on_decorator_usage | Keep functions metadata after decoration |
 | list_unpacking | Unpacking a list using the `*` operator |
 | max_int_in_list_of_str | Get the largest number from a list of strings |
