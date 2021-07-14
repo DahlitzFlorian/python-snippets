@@ -22,3 +22,8 @@ A `pyproject.toml` and a `poetry.lock` are in the directory, too, as poetry is u
 
 > **Note:** Due to the changed distribution settings of the library `tensorflow`, you need to install it separately on your system in order to run some of the snippets in this repo.
 > `tensorflow` is no longer part of the repositories `pyproject.toml`.
+
+
+## More Tips & Tricks
+
+More tips & tricks can be found in the respective section on my website: [link](https://florian-dahlitz.de/tips).
